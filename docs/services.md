@@ -2,7 +2,7 @@
 
 Welcome to the **Services** section of BECDEG, where a decade of industry-spanning writing and documentation expertise is offered with precision, clarity, and strategic insight.
 
-From building full-scale documentation systems to writing SEO blogs, UX microcopy, and developer guides, I bring a structured approach to every content challenge, all tailored to business goals and end-user needs.
+From building full-scale documentation systems to writing SEO blogs, UX microcopy, and developer guides, I bring a structured approach to every content challenge, tailored to business goals and end-user needs.
 
 ---
 
