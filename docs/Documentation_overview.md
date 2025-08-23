@@ -10,7 +10,7 @@ Below are the user manuals for different applications.
     <h2>📘</h2>
     <h3>User Manuals</h3>
     <p>Comprehensive manuals to get started.</p>
-    <a href="/user_manuals_overview/">View Manuals</a>
+    <a href="https://docs.becdeg.com/user_manuals_overview/">View Manuals</a>
   </div>
 </div>
 
