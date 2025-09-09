@@ -45,7 +45,7 @@ nav:
   - Home:
       - The docs behind docs: index.md
       - About me: aboutme.md
-      - Why BECDEG?: whybecdeg.md
+      - Experiences: experience.md
   - What's new?: Whatsnew.md
   - Documentation:
       - Overview: Documentation_overview.md
@@ -63,7 +63,6 @@ nav:
           - Overview: business-user-guides.md
       - Case studies: 
           - Overview: case-studies.md
-  - Experiences: experience.md
   - Services: services.md
   - Contact: contact.md
   - Tags: tags.md
