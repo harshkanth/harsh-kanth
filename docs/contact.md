@@ -34,13 +34,13 @@ hide:
 
     [+91 78276 20848](https://wa.me/917827620848)
 
--   :material-domain:{ .lg .middle } **Agency work**
+-   :fontawesome-brands-github:{ .lg .middle } **GitHub**
 
     ---
 
-    For larger engagements and multi-writer projects.
+    See how I work in Markdown and Git.
 
-    [docifice.com](https://docifice.com)
+    [github.com/harshkanth](https://github.com/harshkanth)
 
 </div>
 

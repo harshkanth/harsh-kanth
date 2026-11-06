@@ -12,15 +12,6 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 <div class="role role--current" markdown>
 
-### Founder · Becdeg
-<span class="when">Present</span>
-
-Becdeg is the company I founded to house documentation services and products. It includes [Docifice](https://docifice.com), a technical writing and content agency, and an AI documentation agent currently in development.
-
-</div>
-
-<div class="role role--current" markdown>
-
 ### SAP consultant and technical writer · SAP Distributed Energy Resources
 <span class="when">Present</span>
 
@@ -129,6 +120,10 @@ Becdeg is the company I founded to house documentation services and products. It
 === "Authoring and publishing"
 
     Markdown, MkDocs, Docusaurus, Jekyll, Sphinx, AsciiDoc, reStructuredText, MadCap Flare, Adobe RoboHelp, Adobe FrameMaker, Oxygen XML, DITA, Confluence, SharePoint, WordPress, Microsoft Word
+
+=== "AI"
+
+    Claude, SAP Joule, and AI-assisted pipelines in VS Code and GitHub
 
 === "Engineering workflow"
 

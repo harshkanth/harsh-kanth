@@ -1,9 +1,8 @@
 /* ==========================================================================
    harshkanth.com theme: technical / docs-as-code
-   Dark-first with a matching light theme. IBM Plex Sans for reading,
-   IBM Plex Mono for headings, labels, and structure. Amber accent, like
-   a highlighted line in an editor. Deliberately separate from the
-   Becdeg / Docifice look.
+   Dark only. IBM Plex Sans for reading, IBM Plex Mono for headings,
+   labels, and structure. Amber accent, like a highlighted line in an
+   editor.
    ========================================================================== */
 
 /* ---------- Tokens ---------- */
@@ -11,42 +10,6 @@
   --hk-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   --hk-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --hk-radius: 6px;
-}
-
-/* Light: paper with ink, amber darkened for contrast */
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color: #b45309;
-  --md-primary-fg-color--light: #d97706;
-  --md-primary-fg-color--dark: #92400e;
-  --md-accent-fg-color: #92400e;
-  --md-accent-fg-color--transparent: rgba(180, 83, 9, 0.08);
-  --md-default-bg-color: #fbfaf7;
-  --md-default-fg-color: #16181d;
-  --md-default-fg-color--light: #4a5059;
-  --md-default-fg-color--lighter: #8a909a;
-  --md-default-fg-color--lightest: #e4e2dc;
-  --md-typeset-a-color: #9a4708;
-  --md-code-bg-color: #f1efe9;
-  --md-code-fg-color: #1f2328;
-  --md-code-hl-keyword-color: #8250df;
-  --md-code-hl-string-color: #0a7a5a;
-  --md-code-hl-name-color: #b45309;
-  --md-code-hl-comment-color: #8a909a;
-  --md-code-hl-punctuation-color: #6a707a;
-  --md-code-hl-constant-color: #0b6bcb;
-  --md-code-hl-number-color: #0b6bcb;
-  --md-code-hl-variable-color: #b45309;
-  --md-code-hl-generic-color: #4a5059;
-  --hk-accent: #b45309;
-  --hk-accent-soft: rgba(180, 83, 9, 0.09);
-  --hk-surface: #ffffff;
-  --hk-surface-2: #f4f2ed;
-  --hk-border: #e2dfd7;
-  --hk-border-strong: #cfcac0;
-  --hk-header-bg: rgba(251, 250, 247, 0.9);
-  --hk-cta-bg: #16181d;
-  --hk-cta-fg: #eceef1;
-  --hk-cta-muted: #a3a9b3;
 }
 
 /* Dark: cool graphite, warm amber */
@@ -86,9 +49,8 @@
   --hk-cta-muted: #a0a7b1;
 }
 
-/* Buttons and selected tabs need dark text on amber in dark mode */
+/* Dark text on amber buttons */
 [data-md-color-scheme="slate"] { --md-primary-bg-color: #0f1115; }
-[data-md-color-scheme="default"] { --md-primary-bg-color: #ffffff; }
 
 /* ---------- Header and tabs ---------- */
 .md-header,
@@ -183,13 +145,9 @@
 
 /* ---------- Home: hero ---------- */
 .md-typeset .hk-hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
-  gap: 2.6rem;
-  align-items: center;
-  padding: 2.4rem 0 1.6rem;
+  padding: 2.6rem 0 1.4rem;
+  max-width: 46rem;
 }
-.md-typeset .hk-hero__intro { min-width: 0; }
 .md-typeset .hk-path {
   font-family: var(--hk-mono);
   font-size: 0.72rem;
@@ -211,7 +169,7 @@
 
 .md-typeset .hk-hero .hk-title {
   font-family: var(--hk-mono);
-  font-size: clamp(1.6rem, 3.6vw, 2.35rem);
+  font-size: clamp(1.7rem, 4.2vw, 2.7rem);
   font-weight: 600;
   line-height: 1.18;
   letter-spacing: -0.03em;
@@ -221,44 +179,19 @@
   font-size: 0.95rem;
   line-height: 1.7;
   color: var(--md-default-fg-color--light);
-  max-width: 34rem;
+  max-width: 40rem;
   margin: 0 0 1.5em;
 }
 .md-typeset .hk-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .md-typeset .hk-actions .md-button { margin: 0; }
 
-/* The front-matter card is a real Material code block */
-.md-typeset .hk-hero__card { min-width: 0; }
-.md-typeset .hk-hero__card .highlight {
-  margin: 0;
-  border: 1px solid var(--hk-border);
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 1px 0 var(--hk-border), 0 24px 48px -28px rgba(0, 0, 0, 0.35);
-}
-.md-typeset .hk-hero__card .highlight .filename {
+.md-typeset .hk-now {
   font-family: var(--hk-mono);
-  font-size: 0.68rem;
-  font-weight: 500;
-  background: var(--hk-surface-2);
-  border-bottom: 1px solid var(--hk-border);
+  font-size: 0.7rem;
   color: var(--md-default-fg-color--light);
-  padding: 0.6rem 1rem 0.6rem 3.4rem;
-  position: relative;
-  margin: 0;
+  margin: 1.6em 0 0;
 }
-.md-typeset .hk-hero__card .highlight .filename::before {
-  content: "";
-  position: absolute; left: 1rem; top: 50%;
-  width: 0.5rem; height: 0.5rem; border-radius: 50%;
-  transform: translateY(-50%);
-  background: var(--hk-border-strong);
-  box-shadow: 0.8rem 0 0 var(--hk-border-strong), 1.6rem 0 0 var(--hk-border-strong);
-}
-.md-typeset .hk-hero__card pre { margin: 0; }
-.md-typeset .hk-hero__card pre > code { font-size: 0.72rem; line-height: 1.75; padding: 1rem 1.15rem; background: var(--hk-surface); }
-.md-typeset .hk-hero__card .md-clipboard,
-.md-typeset .hk-hero__card .md-code__nav { display: none; }
+.md-typeset .hk-now span { color: var(--hk-accent); margin-right: 0.4em; }
 
 /* Client line */
 .md-typeset .hk-clients {
@@ -331,6 +264,63 @@
 .md-typeset .grid.facets ul ul li::before { content: "- "; font-family: var(--hk-mono); color: var(--hk-accent); }
 .md-typeset .grid.facets > ul > li > p:last-child { font-size: 0.74rem; }
 
+/* Skills: compact four-across cards */
+.md-typeset .grid.skills { grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
+.md-typeset .grid.skills > ul > li { padding: 1rem 1.1rem; }
+.md-typeset .grid.skills > ul > li > p:first-child { display: flex; align-items: center; gap: 0.5em; margin-top: 0; }
+.md-typeset .grid.skills > ul > li > p:last-child { color: var(--md-default-fg-color--light); font-size: 0.76rem; }
+.md-typeset .grid.three-up { grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); }
+
+/* Docs-as-code band */
+.md-typeset .hk-dac {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 3rem 0 1rem;
+  padding: 1.8rem 2rem;
+  border: 1px solid var(--hk-border);
+  border-radius: 10px;
+  background: var(--hk-surface-2);
+}
+.md-typeset .hk-dac h2 { margin: 0.5em 0 0.5em; }
+.md-typeset .hk-dac p { color: var(--md-default-fg-color--light); }
+.md-typeset .hk-dac .md-button { margin: 0.3rem 0.4rem 0 0; }
+.md-typeset ol.hk-pipeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: step;
+  font-family: var(--hk-mono);
+  font-size: 0.74rem;
+}
+.md-typeset ol.hk-pipeline li {
+  counter-increment: step;
+  position: relative;
+  margin: 0;
+  padding: 0.55rem 0 0.55rem 2.2rem;
+  border-left: 1px solid var(--hk-border-strong);
+  margin-left: 0.7rem;
+  color: var(--md-default-fg-color);
+}
+.md-typeset ol.hk-pipeline li::before {
+  content: counter(step);
+  position: absolute; left: -0.72rem; top: 50%; transform: translateY(-50%);
+  width: 1.4rem; height: 1.4rem; line-height: 1.4rem;
+  text-align: center;
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--hk-accent);
+  color: var(--hk-accent);
+  font-size: 0.64rem;
+}
+.md-typeset ol.hk-pipeline li span {
+  display: inline-block;
+  min-width: 4.6rem;
+  color: var(--hk-accent);
+}
+.md-typeset ol.hk-pipeline li code { font-size: 0.68rem; }
+
 /* Principles */
 .md-typeset .grid.principles { grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); }
 .md-typeset .grid.principles > ul > li { background: var(--hk-surface-2); }
@@ -361,8 +351,6 @@
 .md-typeset .hk-cta h2 { color: var(--hk-cta-fg); margin: 0 0 0.4em; font-size: 1.2rem; }
 .md-typeset .hk-cta p { color: var(--hk-cta-muted); margin: 0 0 1.2em; max-width: 38rem; }
 .md-typeset .hk-cta a:not(.md-button) { color: var(--hk-accent); }
-[data-md-color-scheme="default"] .md-typeset .hk-cta { --hk-accent: #f5a524; }
-[data-md-color-scheme="default"] .md-typeset .hk-cta .md-button--primary { color: #16181d; }
 .md-typeset .hk-cta .md-button:not(.md-button--primary) { color: var(--hk-cta-fg); border-color: #3a3f48; }
 .md-typeset .hk-cta .md-button:not(.md-button--primary):hover { background: rgba(255, 255, 255, 0.06); border-color: var(--hk-accent); }
 
@@ -441,7 +429,8 @@
 
 /* ---------- Responsive ---------- */
 @media screen and (max-width: 60em) {
-  .md-typeset .hk-hero { grid-template-columns: 1fr; gap: 1.8rem; padding-top: 1.2rem; }
+  .md-typeset .hk-hero { padding-top: 1.2rem; }
+  .md-typeset .hk-dac { grid-template-columns: 1fr; padding: 1.4rem 1.2rem; }
 }
 @media screen and (max-width: 40em) {
   .md-typeset .portrait { float: none; display: block; width: 100%; max-width: 18rem; margin: 0 auto 1.2rem; }

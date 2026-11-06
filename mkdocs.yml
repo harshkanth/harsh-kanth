@@ -2,12 +2,12 @@ site_name: Harsh Kanth
 site_url: https://harshkanth.com
 site_author: Harsh Kanth
 site_description: >-
-  Harsh Kanth is a technical writer, content designer, and writer with 10+ years
-  of experience: product and API documentation for SAP and Microsoft, content
-  architecture and style systems, and content writing for brands.
+  Harsh Kanth is a technical writer and content designer with 10+ years of
+  experience: product and API documentation for SAP and Microsoft, content
+  architecture and style systems, and content writing. Built as docs as code.
 repo_url: https://github.com/harshkanth/harsh-kanth
 repo_name: harshkanth/harsh-kanth
-edit_uri: ""
+edit_uri: edit/main/docs/
 copyright: >-
   &copy; 2026 Harsh Kanth &middot; Written in Markdown, versioned in Git, built with MkDocs
 
@@ -21,22 +21,12 @@ theme:
     text: IBM Plex Sans
     code: IBM Plex Mono
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+    scheme: slate
+    primary: custom
+    accent: custom
   icon:
     repo: fontawesome/brands/github
+    edit: material/file-edit-outline
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -51,6 +41,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.edit
     - content.tooltips
 
 extra_css:
@@ -91,6 +82,7 @@ nav:
       - samples/index.md
       - Install Microsoft Teams: samples/install-microsoft-teams.md
       - Schedule a meeting in Microsoft Teams: samples/schedule-teams-meeting.md
+  - Docs as code: docs-as-code.md
   - Experience: experience.md
   - Services: services.md
   - About: about.md
@@ -111,7 +103,11 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:

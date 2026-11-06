@@ -24,7 +24,7 @@ description: Documentation services from Harsh Kanth, including product and API 
 
     ---
 
-    Portal structure and taxonomy, templates, content reuse, and migration from static files to docs as code.
+    Portal structure and taxonomy, templates, content reuse, and migration to docs as code with AI-assisted workflows.
 
 -   :material-format-list-checks:{ .lg .middle } **Style guides, governance, and audits**
 
@@ -53,7 +53,6 @@ description: Documentation services from Harsh Kanth, including product and API 
 | **Project** | A defined deliverable, such as a product launch doc set, an API reference, or a portal migration |
 | **Retainer** | Ongoing documentation ownership alongside your release cycle |
 | **Audit** | A clear picture of what's working, what isn't, and what to fix first |
-| **Agency** | Larger or multi-writer engagements, delivered through [Docifice](https://docifice.com) |
 
 ## How a project runs
 

@@ -1,8 +1,9 @@
 ---
-title: Technical writer, content designer, writer
+title: Technical writer and content designer
 description: >-
   Harsh Kanth writes technical documentation for SAP, Microsoft, and enterprise
-  platforms, designs the content architecture behind it, and writes for brands.
+  platforms, designs the content systems behind it, and writes for brands.
+  This portfolio is itself built as docs as code.
 hide:
   - navigation
   - toc
@@ -10,39 +11,19 @@ hide:
 
 <div class="hk-hero" markdown>
 
-<div class="hk-hero__intro" markdown>
-
 <p class="hk-path"><span>~/</span>harshkanth.com</p>
 
 <h1 class="hk-title">I write for developers, design for content, and write for people.</h1>
 
-<p class="hk-sub">I'm Harsh Kanth. For more than ten years I've written technical documentation for SAP, Microsoft, and enterprise platforms, designed the information architecture and style systems behind it, and written web content and ghostwritten articles for brands like BMW and Amazon.</p>
+<p class="hk-sub">I'm Harsh Kanth, a technical writer and content designer with more than ten years of experience. I write product assistance for SAP, wrote developer documentation for Microsoft Teams, build documentation systems for enterprise platforms, and write content for brands like BMW and Amazon. I work docs as code, with AI built into my daily workflow.</p>
 
 <div class="hk-actions" markdown>
 [See my work](work/index.md){ .md-button .md-button--primary }
+[How this site is built](docs-as-code.md){ .md-button }
 [Download résumé](assets/Harsh_Kanth_Resume.pdf){ .md-button }
-[Get in touch](contact.md){ .md-button }
 </div>
 
-</div>
-
-<div class="hk-hero__card" markdown>
-
-```yaml title="harsh-kanth.md"
----
-name: Harsh Kanth
-role: Technical writer, content designer
-experience: 10+ years
-writing_now:
-  - SAP DER · MCM product assistance
-  - IGA Application Onboarding Hub
-founder_of: [Becdeg, Docifice]
-style_guides: [Microsoft, Apple, Google, Chicago]
-open_to: documentation and content projects
----
-```
-
-</div>
+<p class="hk-now"><span>now:</span> SAP DER MCM product assistance · IGA Application Onboarding Hub</p>
 
 </div>
 
@@ -51,50 +32,66 @@ open_to: documentation and content projects
   <span>SAP</span><span>Microsoft</span><span>Amazon</span><span>BMW</span><span>OneShield</span><span>EXL</span><span>Holepunch</span><span>Western Union</span>
 </div>
 
-## Three kinds of writing, one craft { #three-kinds }
+## What I do
 
-<p class="lead">Most writers specialize in one of these. My work moves between all three, and each one makes the others better.</p>
+<div class="grid cards skills" markdown>
 
-<div class="grid cards facets" markdown>
+-   :material-book-open-page-variant:{ .lg } **Product documentation**
 
--   <span class="hk-slug">tech-writing/</span>
+    Admin, user, and installation guides and product assistance for SaaS and enterprise software, including SAP.
 
-    **Technical writing**
+-   :material-api:{ .lg } **API and developer docs**
 
-    The developer and product side. Documentation that's accurate enough to build on and clear enough to follow at 2 a.m.
+    REST references, SDK and integration guides, authentication flows, and Swagger/OpenAPI content.
 
-    - Product assistance and user guides
-    - API references and SDK guides
-    - Release notes and What's New
-    - Docs as code: Markdown, Git, MkDocs
+-   :material-sitemap:{ .lg } **Information architecture**
 
-    [:octicons-arrow-right-24: SAP DER MCM](work/sap-der-mcm.md) · [:octicons-arrow-right-24: Microsoft Teams](work/microsoft-teams.md)
+    Portal structure, taxonomy, templates, and content reuse that scale with the product.
 
--   <span class="hk-slug">content-design/</span>
+-   :material-format-list-checks:{ .lg } **Style guides and governance**
 
-    **Content design and architecture**
+    House style guides, terminology management, review workflows, and documentation audits.
 
-    The system around the words. How content is structured, named, reused, and governed so it scales with the product.
+-   :material-source-branch:{ .lg } **Docs as code and AI workflows**
 
-    - Information architecture and taxonomy
-    - Style guides and terminology
-    - Templates and content reuse
-    - UX writing and microcopy
+    Markdown, Git, MkDocs, and CI/CD publishing, with AI assistants and pipelines in VS Code and GitHub.
 
-    [:octicons-arrow-right-24: Style guide and governance](work/avancer-docs-governance.md) · [:octicons-arrow-right-24: Four-company overhaul](work/vision-group.md)
+-   :material-bullhorn-outline:{ .lg } **Release communication**
 
--   <span class="hk-slug">content-writing/</span>
+    Release notes, What's New entries, advisories, and executive summaries.
 
-    **Content writing**
+-   :material-gesture-tap-button:{ .lg } **UX writing**
 
-    The creative side. Writing that has to earn attention, explain an idea, and sound like the brand that publishes it.
+    Onboarding flows, error messages, tooltips, and empty states written with the product logic in mind.
 
-    - Articles, blogs, and whitepapers
-    - Case studies and web copy
-    - Product descriptions and SEO
-    - Ghostwriting for brands and founders
+-   :material-pen:{ .lg } **Content writing**
 
-    [:octicons-arrow-right-24: Content writing and ghostwriting](work/content-writing.md)
+    Articles, whitepapers, case studies, web copy, and ghostwritten content for brands and founders.
+
+</div>
+
+<div class="hk-dac" markdown>
+
+<div markdown>
+
+<span class="hk-slug">this site / docs as code</span>
+
+## This portfolio is a work sample too
+
+Every page here is a Markdown file in a public GitHub repository. Changes go through Git, a strict build checks every link and page, and GitHub Actions publishes the site. AI is part of the workflow: I draft, restructure, and review with Claude, use Joule in my SAP work, and run AI-assisted steps in VS Code and GitHub. Every change is checked and approved by me before it ships.
+
+[:octicons-arrow-right-24: How this site is built](docs-as-code.md){ .md-button }
+[:fontawesome-brands-github: View the source](https://github.com/harshkanth/harsh-kanth){ .md-button }
+
+</div>
+
+<ol class="hk-pipeline">
+  <li><span>write</span>Markdown in VS Code</li>
+  <li><span>assist</span>Draft and review with AI</li>
+  <li><span>commit</span>Pull request on GitHub</li>
+  <li><span>build</span><code>mkdocs build --strict</code></li>
+  <li><span>publish</span>GitHub Actions → harshkanth.com</li>
+</ol>
 
 </div>
 
@@ -118,14 +115,6 @@ open_to: documentation and content projects
 
     [:octicons-arrow-right-24: Read the case study](work/avancer-iga-onboarding-hub.md)
 
--   <span class="hk-slug">avancer / governance</span>
-
-    **Style guide and docs governance**
-
-    A house style guide, templates, and compliance passes that brought several products' documentation to one standard.
-
-    [:octicons-arrow-right-24: Read the case study](work/avancer-docs-governance.md)
-
 -   <span class="hk-slug">microsoft / developer docs</span>
 
     **Microsoft Teams developer docs**
@@ -133,6 +122,14 @@ open_to: documentation and content projects
     Authentication and single sign-on content for the Teams developer platform, written to the Microsoft Style Guide and live on Microsoft Learn.
 
     [:octicons-arrow-right-24: Read the case study](work/microsoft-teams.md)
+
+-   <span class="hk-slug">exl / docs as code</span>
+
+    **RPA docs-as-code migration**
+
+    Documentation for an RPA platform written from scratch and moved from static files to a Git-based MkDocs portal.
+
+    [:octicons-arrow-right-24: Read the case study](work/exl-rpa-docs.md)
 
 </div>
 
@@ -152,7 +149,7 @@ open_to: documentation and content projects
 
 -   **Accuracy**
 
-    Every procedure checked against the product, with terminology agreed with product owners before it ships.
+    Every procedure checked against the product, and every AI-assisted draft verified before it ships.
 
 -   **Maintainability**
 
@@ -164,7 +161,7 @@ open_to: documentation and content projects
 
 ## Have something that needs writing?
 
-Documentation, a content system, or words for your brand: I take on projects, audits, and long-term ownership. Larger engagements run through [Docifice](https://docifice.com), my agency.
+Documentation, a content system, or words for your brand: I take on projects, audits, and long-term documentation ownership.
 
 <div class="hk-actions" markdown>
 [Start a conversation](contact.md){ .md-button .md-button--primary }

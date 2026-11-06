@@ -1,16 +1,19 @@
 ---
+hide:
+  - navigation
+  - toc
 description: Case studies from Harsh Kanth's technical writing, content design, and content writing work for SAP, Microsoft, Avancer, OneShield, EXL, and brands.
 ---
 
 # Work
 
-<p class="lead">Selected projects, grouped by the three kinds of writing I do. Each case study covers the problem, what I delivered, and how I approached it.</p>
+<p class="lead">Selected projects across technical writing, content design, and content writing. Each case study covers the problem, what I delivered, and how I approached it.</p>
 
 Most enterprise documentation is confidential or behind a customer login. Where a deliverable is public, I link to it. Where it isn't, the case study describes the scope and structure, and I can walk you through redacted samples on a call.
 
-## Technical writing
+## Current
 
-<div class="grid cards two-up" markdown>
+<div class="grid cards three-up" markdown>
 
 -   <span class="hk-slug">sap / energy · ongoing</span>
 
@@ -27,6 +30,20 @@ Most enterprise documentation is confidential or behind a customer login. Where 
     Installation, admin, and owner guides, solution architecture, integration prerequisites, and store listing copy for an identity governance product.
 
     [:octicons-arrow-right-24: Read more](avancer-iga-onboarding-hub.md)
+
+-   <span class="hk-slug">avancer / governance</span>
+
+    **Style guide and docs governance**
+
+    A house style guide, a document identity system, and compliance passes that brought several products to one standard.
+
+    [:octicons-arrow-right-24: Read more](avancer-docs-governance.md)
+
+</div>
+
+## Earlier
+
+<div class="grid cards two-up" markdown>
 
 -   <span class="hk-slug">microsoft / developer docs</span>
 
@@ -52,20 +69,6 @@ Most enterprise documentation is confidential or behind a customer login. Where 
 
     [:octicons-arrow-right-24: Read more](oneshield.md)
 
-</div>
-
-## Content design and architecture
-
-<div class="grid cards two-up" markdown>
-
--   <span class="hk-slug">avancer / governance</span>
-
-    **Style guide and docs governance**
-
-    A house style guide, a document identity system, and compliance passes that brought several products to one standard.
-
-    [:octicons-arrow-right-24: Read more](avancer-docs-governance.md)
-
 -   <span class="hk-slug">vision group / architecture</span>
 
     **Documentation overhaul across four companies**
@@ -73,12 +76,6 @@ Most enterprise documentation is confidential or behind a customer login. Where 
     New templates, style, and taxonomy for four retail-tech subsidiaries, with siloed content moved into a CMS and Git.
 
     [:octicons-arrow-right-24: Read more](vision-group.md)
-
-</div>
-
-## Content writing
-
-<div class="grid cards two-up" markdown>
 
 -   <span class="hk-slug">bmw · amazon · western union</span>
 
