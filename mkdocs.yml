@@ -14,7 +14,7 @@ copyright: >-
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/images/logo.svg
+  logo: assets/images/hk_logo.png
   favicon: assets/images/favicon.svg
   language: en
   font:
