@@ -102,7 +102,7 @@ AI is part of how I work, used where it helps. Most of the time it reviews what 
 
     **What I use**
 
-    Claude for drafting help and review, plus AI-assisted checks in VS Code and on GitHub pull requests.
+    AI assistants for drafting help and review, plus AI-assisted checks in VS Code and on GitHub pull requests.
 
 </div>
 
