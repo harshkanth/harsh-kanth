@@ -2,9 +2,9 @@ site_name: Harsh Kanth
 site_url: https://harshkanth.com
 site_author: Harsh Kanth
 site_description: >-
-  Harsh Kanth is a technical writer and content designer with 10+ years of
-  experience: product and API documentation for SAP and Microsoft, content
-  architecture and style systems, and content writing. Built as docs as code.
+  Harsh Kanth is a technical writer and documentation owner with 10+ years of
+  experience planning, writing, and managing product, API, and developer
+  documentation. Built as docs as code.
 repo_url: https://github.com/harshkanth/harsh-kanth
 repo_name: harshkanth/harsh-kanth
 edit_uri: edit/main/docs/
@@ -81,7 +81,7 @@ nav:
       - work/index.md
       - SAP DER MCM product assistance: work/sap-der-mcm.md
       - IGA Application Onboarding Hub suite: work/avancer-iga-onboarding-hub.md
-      - Style guide and docs governance: work/avancer-docs-governance.md
+      - Style guide, governance, and Confluence migration: work/avancer-docs-governance.md
       - Microsoft Teams developer docs: work/microsoft-teams.md
       - RPA docs-as-code migration: work/exl-rpa-docs.md
       - Insurance platform documentation: work/oneshield.md
@@ -93,6 +93,7 @@ nav:
       - Schedule a meeting in Microsoft Teams: samples/schedule-teams-meeting.md
   - Docs as code: docs-as-code.md
   - Experience: experience.md
+  - Certifications: certifications.md
   - Services: services.md
   - About: about.md
   - Contact: contact.md

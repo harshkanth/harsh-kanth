@@ -2,12 +2,12 @@
 hide:
   - navigation
   - toc
-description: Case studies from Harsh Kanth's technical writing, content design, and content writing work for SAP, Microsoft, Avancer, OneShield, EXL, and brands.
+description: Case studies from Harsh Kanth's technical writing, documentation management, and content writing work for SAP, Microsoft, Avancer, OneShield, EXL, and brands.
 ---
 
 # Work
 
-<p class="lead">Selected projects across technical writing, content design, and content writing. Each case study covers the problem, what I delivered, and how I approached it.</p>
+<p class="lead">Selected projects across technical writing, documentation ownership, and content writing. Each case study covers the problem, what I delivered, and how I approached it.</p>
 
 Most enterprise documentation is confidential or behind a customer login. Where a deliverable is public, I link to it. Where it isn't, the case study describes the scope and structure, and I can walk you through redacted samples on a call.
 
@@ -33,9 +33,9 @@ Most enterprise documentation is confidential or behind a customer login. Where 
 
 -   <span class="hk-slug">avancer / governance</span>
 
-    **Style guide and docs governance**
+    **Style guide, governance, and Confluence migration**
 
-    A house style guide, a document identity system, and compliance passes that brought several products to one standard.
+    Documentation moved from Microsoft 365 to Confluence, a house style guide, and compliance passes that brought several products to one standard.
 
     [:octicons-arrow-right-24: Read more](avancer-docs-governance.md)
 

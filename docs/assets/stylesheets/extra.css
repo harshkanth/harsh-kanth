@@ -187,7 +187,7 @@
 /* ---------- Home: hero ---------- */
 .md-typeset .hk-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 17rem);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 19rem);
   gap: 3rem;
   align-items: center;
   padding: 2.4rem 0 1.6rem;
@@ -249,6 +249,73 @@
   margin: 1.6em 0 0;
 }
 .md-typeset .hk-now span { color: var(--hk-accent); margin-right: 0.4em; }
+
+/* Documentation lifecycle graphic in the hero */
+.md-typeset .hk-cycle {
+  border: 1px solid var(--hk-border);
+  border-radius: 12px;
+  background: var(--hk-surface);
+  padding: 1rem 1.15rem 0.9rem;
+  font-family: var(--hk-mono);
+}
+.md-typeset .hk-cycle__head {
+  display: flex; justify-content: space-between; gap: 1rem;
+  font-size: 0.62rem;
+  color: var(--md-default-fg-color--lighter);
+  padding-bottom: 0.7rem;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid var(--hk-border);
+}
+.md-typeset .hk-cycle__head span:first-child { color: var(--hk-accent); }
+.md-typeset .hk-cycle ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: none;
+}
+.md-typeset .hk-cycle li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4.6rem 1fr;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0.55rem 0 0.55rem 1.3rem;
+}
+.md-typeset .hk-cycle li::before {
+  content: "";
+  position: absolute; left: 0.2rem; top: 0.95rem;
+  width: 0.5rem; height: 0.5rem; border-radius: 50%;
+  border: 1.5px solid var(--hk-accent-fill);
+  background: var(--hk-surface);
+  z-index: 1;
+}
+.md-typeset .hk-cycle li::after {
+  content: "";
+  position: absolute; left: 0.43rem; top: 1.45rem; bottom: -0.95rem;
+  border-left: 1px dashed var(--hk-border-strong);
+}
+.md-typeset .hk-cycle li:last-child::after { display: none; }
+.md-typeset .hk-cycle li b { font-weight: 600; font-size: 0.76rem; color: var(--md-default-fg-color); }
+.md-typeset .hk-cycle li span { font-family: var(--hk-sans); font-size: 0.72rem; color: var(--md-default-fg-color--light); line-height: 1.45; }
+.md-typeset .hk-cycle__loop {
+  margin-top: 0.5rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--hk-border);
+  font-size: 0.66rem;
+  color: var(--hk-accent);
+}
+
+/* Industries */
+.md-typeset .hk-industries { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.8rem; }
+.md-typeset .hk-industries span {
+  font-size: 0.74rem;
+  padding: 0.3em 0.75em;
+  border: 1px solid var(--hk-border);
+  border-radius: 999px;
+  background: var(--hk-surface);
+  color: var(--md-default-fg-color--light);
+}
 
 /* Client line */
 .md-typeset .hk-clients {
@@ -486,7 +553,7 @@
 /* ---------- Responsive ---------- */
 @media screen and (max-width: 60em) {
   .md-typeset .hk-hero { grid-template-columns: 1fr; gap: 1.6rem; padding-top: 1.2rem; }
-  .md-typeset .hk-hero__art { max-width: 15rem; }
+  .md-typeset .hk-cycle { max-width: 24rem; }
   .md-typeset .hk-dac { grid-template-columns: 1fr; padding: 1.4rem 1.2rem; }
 }
 @media screen and (max-width: 40em) {

@@ -102,7 +102,7 @@ I write the content myself. AI comes in afterwards, the way a second reviewer wo
 
     **What I use**
 
-    Claude for review, Joule in my SAP work, and AI-assisted checks in VS Code and GitHub.
+    Claude for review, plus AI-assisted checks in VS Code and on GitHub pull requests.
 
 </div>
 

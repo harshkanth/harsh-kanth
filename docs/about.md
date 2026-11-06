@@ -1,5 +1,5 @@
 ---
-description: About Harsh Kanth, a technical writer, content designer, and SAP consultant who works docs as code with AI in the loop.
+description: About Harsh Kanth, a technical writer, documentation owner, and SAP consultant who works docs as code.
 ---
 
 # About

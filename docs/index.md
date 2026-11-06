@@ -1,9 +1,8 @@
 ---
-title: Technical writer and content designer
+title: Technical writer and documentation owner
 description: >-
-  Harsh Kanth writes technical documentation for SAP, Microsoft, and enterprise
-  platforms, designs the content systems behind it, and writes for brands.
-  This portfolio is itself built as docs as code.
+  Harsh Kanth plans, writes, and owns product, API, and developer documentation,
+  from the first outline to the published portal. Built as docs as code.
 hide:
   - navigation
   - toc
@@ -15,20 +14,29 @@ hide:
 
 <p class="hk-path"><span>~/</span>harshkanth.com</p>
 
-<h1 class="hk-title">Clear documentation for complex products.</h1>
+<h1 class="hk-title">Technical writer and documentation owner.</h1>
 
-<p class="hk-sub">I'm Harsh Kanth, a technical writer and content designer with more than ten years of experience. I write product, API, and developer documentation for SAP, Microsoft, and enterprise platforms, design the content systems behind it, and write content for brands. I work docs as code, and this site is an example.</p>
+<p class="hk-sub">I'm Harsh Kanth. For more than ten years I've planned, written, and managed documentation for enterprise software, developer platforms, and SaaS products. I own documentation end to end: the structure, the writing, the review process, and the publishing pipeline, and I keep it accurate release after release.</p>
 
 <div class="hk-actions" markdown>
 [:material-briefcase-outline: See my work](work/index.md){ .md-button .md-button--primary }
-[:material-source-branch: How this site is built](docs-as-code.md){ .md-button }
-[:material-file-download-outline: Download résumé](assets/Harsh_Kanth_Resume.pdf){ .md-button }
+[:material-source-branch: Docs as code](docs-as-code.md){ .md-button }
+[:material-certificate-outline: Certifications](certifications.md){ .md-button }
+[:material-file-download-outline: Résumé](assets/Harsh_Kanth_Resume.pdf){ .md-button }
 </div>
 
 </div>
 
-<div class="hk-hero__art">
-  <img src="assets/images/harsh-kanth.webp" alt="Illustration of Harsh Kanth with his six dogs in a garden" width="720" height="1080">
+<div class="hk-cycle" role="img" aria-label="The documentation lifecycle I own: plan, write, review, publish, maintain">
+  <div class="hk-cycle__head"><span>documentation lifecycle</span><span>owned end to end</span></div>
+  <ol>
+    <li><b>plan</b><span>Scope, structure, templates</span></li>
+    <li><b>write</b><span>Guides, references, release notes</span></li>
+    <li><b>review</b><span>SMEs, style, terminology</span></li>
+    <li><b>publish</b><span>Docs as code, CI/CD</span></li>
+    <li><b>maintain</b><span>Updates, audits, governance</span></li>
+  </ol>
+  <div class="hk-cycle__loop">↺ repeat every release</div>
 </div>
 
 </div>
@@ -37,9 +45,13 @@ hide:
 
 <div class="grid cards skills" markdown>
 
+-   :material-folder-account-outline:{ .lg } **Documentation ownership**
+
+    Owning and managing documentation end to end: planning, priorities, schedules, reviews, and quality.
+
 -   :material-book-open-page-variant:{ .lg } **Product documentation**
 
-    Admin, user, and installation guides and product assistance for SaaS and enterprise software, including SAP.
+    Admin, user, and installation guides, product assistance, release notes, and What's New entries.
 
 -   :material-api:{ .lg } **API and developer docs**
 
@@ -47,19 +59,15 @@ hide:
 
 -   :material-sitemap:{ .lg } **Information architecture**
 
-    Portal structure, taxonomy, templates, and content reuse that scale with the product.
+    Portal structure, taxonomy, templates, content reuse, and migrations between platforms.
 
 -   :material-format-list-checks:{ .lg } **Style guides and governance**
 
     House style guides, terminology management, review workflows, and documentation audits.
 
--   :material-source-branch:{ .lg } **Docs as code and AI workflows**
+-   :material-source-branch:{ .lg } **Docs as code**
 
     Markdown, Git, MkDocs, and CI/CD publishing, with AI-assisted review in VS Code and GitHub.
-
--   :material-bullhorn-outline:{ .lg } **Release communication**
-
-    Release notes, What's New entries, advisories, and executive summaries.
 
 -   :material-gesture-tap-button:{ .lg } **UX writing**
 
@@ -67,8 +75,31 @@ hide:
 
 -   :material-pen:{ .lg } **Content writing**
 
-    Articles, whitepapers, case studies, web copy, and ghostwritten content for brands and founders.
+    Articles, whitepapers, case studies, web copy, and ghostwritten content.
 
+</div>
+
+## Industries
+
+<div class="hk-industries">
+  <span>Enterprise software and SAP</span>
+  <span>Energy and utilities</span>
+  <span>Identity and access management</span>
+  <span>Developer platforms and collaboration</span>
+  <span>SaaS and cloud</span>
+  <span>Insurance and insurtech</span>
+  <span>Fintech and payments</span>
+  <span>AI and machine learning</span>
+  <span>Robotic process automation</span>
+  <span>Retail tech and autonomous stores</span>
+  <span>AR and VR</span>
+  <span>E-commerce</span>
+  <span>Automotive</span>
+  <span>Telecom</span>
+  <span>Healthcare</span>
+  <span>Aviation</span>
+  <span>Edtech</span>
+  <span>Consumer products</span>
 </div>
 
 <div class="hk-dac" markdown>

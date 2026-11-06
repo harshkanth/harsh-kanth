@@ -30,9 +30,9 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 - Wrote the documentation suite for the IGA Application Onboarding Hub, from installation and admin guides to the ServiceNow Store listing
 - Authored Avancer Style Guide v2.0 and ran compliance passes across several identity products
-- Maintain Identity Bridge documentation in Confluence Cloud
+- Migrated documentation from Microsoft 365 to Confluence Cloud, set up the space, and maintain it
 
-[:octicons-arrow-right-24: Onboarding Hub case study](work/avancer-iga-onboarding-hub.md) · [:octicons-arrow-right-24: Governance case study](work/avancer-docs-governance.md)
+[:octicons-arrow-right-24: Onboarding Hub case study](work/avancer-iga-onboarding-hub.md) · [:octicons-arrow-right-24: Governance and migration case study](work/avancer-docs-governance.md)
 
 </div>
 
