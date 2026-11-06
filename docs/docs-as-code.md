@@ -1,18 +1,18 @@
 ---
 title: How this site is built
-description: How harshkanth.com is written, reviewed, and published as docs as code with Markdown, Git, MkDocs, and GitHub Actions, with AI used for review.
+description: How harshkanth.com is written, reviewed, and published as docs as code with Markdown, Git, MkDocs, and GitHub Actions, with AI as a working partner.
 ---
 
 # How this site is built
 
-<p class="lead">I wrote and built this portfolio myself, the same way I build documentation for clients: plain-text content in Git, an automated build that catches mistakes, and AI as a reviewer, not a writer.</p>
+<p class="lead">I wrote and built this portfolio myself, the same way I build documentation for clients: plain-text content in Git, an automated build that catches mistakes, and AI as a working partner for review, ideas, and the occasional first draft.</p>
 
 <div class="facts">
   <div><span class="k">Content</span><span class="v">Markdown</span></div>
   <div><span class="k">Generator</span><span class="v">MkDocs with Material for MkDocs</span></div>
   <div><span class="k">Source</span><span class="v">Public GitHub repository</span></div>
   <div><span class="k">Publishing</span><span class="v">GitHub Actions to GitHub Pages</span></div>
-  <div><span class="k">AI</span><span class="v">Review, structure, and style checks</span></div>
+  <div><span class="k">AI</span><span class="v">Review, ideas, and occasional first drafts</span></div>
 </div>
 
 ## Why docs as code
@@ -76,7 +76,7 @@ Adding a case study means adding one Markdown file and one line to `mkdocs.yml`.
 
 ## How I use AI
 
-I write the content myself. AI comes in afterwards, the way a second reviewer would: it checks what I've written and suggests improvements, and I decide what to accept.
+AI is part of how I work, used where it helps. Most of the time it reviews what I've written. Sometimes I bring it in earlier, to explore ideas or get a rough first draft, which I then rework and refine in my own words. Either way, I decide what stays.
 
 <div class="grid cards three-up" markdown>
 
@@ -84,32 +84,32 @@ I write the content myself. AI comes in afterwards, the way a second reviewer wo
 
     **Review and consistency**
 
-    Checking what I've written for clarity, consistency, and terminology across pages, and catching what's easy to miss in my own read.
+    Checking pages for clarity, consistency, and terminology, and catching what's easy to miss on my own read.
 
--   <span class="hk-slug">structure</span>
+-   <span class="hk-slug">ideas and drafts</span>
 
-    **Structure and flow**
+    **Ideas and first drafts**
 
-    Suggestions on how to order sections, split long topics, and make headings easier to scan.
+    Brainstorming angles and outlines, or getting a rough first draft to react to, then rewriting and refining it myself.
 
--   <span class="hk-slug">style and format</span>
+-   <span class="hk-slug">structure and style</span>
 
-    **Style and formatting**
+    **Structure, style, and formatting**
 
-    Checks against style rules, plus Markdown formatting, tables, and code blocks, so the source stays clean.
+    Suggestions on section order and headings, checks against style rules, and clean Markdown, tables, and code blocks.
 
 -   <span class="hk-slug">tools</span>
 
     **What I use**
 
-    Claude for review, plus AI-assisted checks in VS Code and on GitHub pull requests.
+    AI assistants for drafting help and review, plus AI-assisted checks in VS Code and on GitHub pull requests.
 
 </div>
 
 ### My rules for AI
 
-- **I write; AI reviews.** The content, the decisions, and the final wording are mine.
-- **Suggestions, not changes.** I read every suggestion and accept only what makes the page better.
+- **I own the content.** Whether AI suggested an idea, drafted a section, or reviewed a page, the final wording and the decisions are mine.
+- **Drafts are a starting point.** Anything AI drafts gets reworked and refined before it goes anywhere.
 - **Facts come from the source.** Steps, values, and claims are checked against the product or the subject matter expert, never taken from a model.
 - **Confidential stays confidential.** Client material goes only into tools the client has approved.
 

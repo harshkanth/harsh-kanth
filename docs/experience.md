@@ -51,15 +51,6 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 <div class="role" markdown>
 
-### Contributor · Outlier, Project Aether
-<span class="when">2026</span>
-
-- Contributed to AI training work on Project Aether
-
-</div>
-
-<div class="role" markdown>
-
 ### AI training for technical writing · Uber
 <span class="when">May 2026 – Jul 2026</span>
 
@@ -67,6 +58,15 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 - Reviewed and evaluated its outputs, wrote feedback, and trained the model again in repeated rounds
 
 [:octicons-arrow-right-24: AI training case study](work/ai-training.md)
+
+</div>
+
+<div class="role" markdown>
+
+### Contributor · Outlier, Project Aether
+<span class="when">Mar 2026 – Apr 2026</span>
+
+- Contributed to AI training work on Project Aether
 
 </div>
 
@@ -155,7 +155,7 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 === "AI"
 
-    Claude for review, SAP Joule, and AI-assisted checks in VS Code and GitHub
+    Claude and SAP Joule for review, ideas, and first drafts, plus AI-assisted checks in VS Code and GitHub
 
 === "Engineering workflow"
 

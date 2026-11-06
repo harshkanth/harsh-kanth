@@ -4,24 +4,37 @@ description: Certifications and training held or created by Harsh Kanth, technic
 
 # Certifications
 
-<p class="lead">Certifications, courses, and training I've completed, plus training I've created for other writers.</p>
+<p class="lead">Certifications and courses I've completed, plus training I've created for others. Each certificate links to the original document.</p>
 
 ## Certifications
 
-!!! note "Draft"
-    This list is being filled in. Each certification gets one card with the issuer, the year, and a link to verify it.
+<div class="grid cards two-up" markdown>
 
-<!--
-Card template: copy one block per certification.
+-   <span class="hk-slug">sap · oct 2025</span>
 
--   <span class="hk-slug">issuer · year</span>
+    **ZDI030 ABAP System Documentation**
 
-    **Certification name**
+    Writing system documentation for ABAP development objects.
 
-    One line on what it covers.
+    [:octicons-file-24: View certificate](assets/certificates/sap-zdi030-abap-system-documentation.pdf)
 
-    [:octicons-link-external-16: Verify](https://link-to-credential)
--->
+-   <span class="hk-slug">sap · oct 2025</span>
+
+    **ZDIPCA People-Centric Approach**
+
+    An SAP course on the people-centric approach.
+
+    [:octicons-file-24: View certificate](assets/certificates/sap-zdipca-people-centric-approach.pdf)
+
+-   <span class="hk-slug">sap · jul 2025</span>
+
+    **IXIA CCMS – Basics for Authors**
+
+    Authoring in the IXIA component content management system, through a virtual session and self-paced learning.
+
+    [:octicons-file-24: View certificate](assets/certificates/sap-ixia-ccms-basics-for-authors.pdf)
+
+</div>
 
 ## Training I've created
 

@@ -31,15 +31,6 @@ Writing content and reviewing outputs as part of Project Odin.
 
 <div class="role" markdown>
 
-### Contributor · Outlier, Project Aether
-<span class="when">2026</span>
-
-Contributed to Project Aether on the Outlier platform.
-
-</div>
-
-<div class="role" markdown>
-
 ### AI training for technical writing · Uber
 <span class="when">May 2026 – Jul 2026</span>
 
@@ -47,6 +38,15 @@ Contributed to Project Aether on the Outlier platform.
 - Ran it to produce outputs, then reviewed and evaluated each one
 - Wrote feedback on what worked and what didn't, and used it to train the model again
 - Repeated the loop, so each round built on the last round's evaluation
+
+</div>
+
+<div class="role" markdown>
+
+### Contributor · Outlier, Project Aether
+<span class="when">Mar 2026 – Apr 2026</span>
+
+Contributed to Project Aether on the Outlier platform.
 
 </div>
 

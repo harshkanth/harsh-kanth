@@ -60,7 +60,7 @@ hide:
 
 -   :material-school-outline:{ .lg } **Knowledge and training**
 
-    Training modules and video courses, including one for Board Infinity on Coursera and several for SAP and OneShield.
+    Training modules and video courses, including one for Board Infinity on Coursera and modules for SAP MCM, SAP S/4HANA, and OneShield.
 
 -   :material-source-branch:{ .lg } **Docs as code**
 
@@ -84,7 +84,7 @@ hide:
 
 ## This portfolio is a work sample too
 
-Every page here is a Markdown file in a public GitHub repository. Changes go through Git, a strict build checks every link and page, and GitHub Actions publishes the site. I write every page myself. AI acts as a reviewer, checking structure, style, and formatting, and I decide which suggestions to keep.
+Every page here is a Markdown file in a public GitHub repository. Changes go through Git, a strict build checks every link and page, and GitHub Actions publishes the site. I wrote this site myself, with AI as a working partner: mostly for review, sometimes for ideas or a rough first draft that I then rework. I decide what stays.
 
 [:octicons-arrow-right-24: How this site is built](docs-as-code.md){ .md-button }
 [:fontawesome-brands-github: View the source](https://github.com/harshkanth/harsh-kanth){ .md-button }
