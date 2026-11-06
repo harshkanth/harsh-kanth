@@ -155,7 +155,7 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 === "AI"
 
-    AI for review, ideas, and first drafts; SAP Joule; and AI-assisted checks in VS Code and GitHub
+    Claude and SAP Joule for review, ideas, and first drafts, plus AI-assisted checks in VS Code and GitHub
 
 === "Engineering workflow"
 

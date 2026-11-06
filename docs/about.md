@@ -8,7 +8,7 @@ description: About Harsh Kanth, a technical writer, documentation owner, and SAP
 
 <p class="lead">I'm Harsh Kanth. For more than ten years, I've helped companies explain their products clearly, from SAP enterprise software to Microsoft's developer platform to startups writing their first help center.</p>
 
-Today I work as an SAP consultant and technical writer, consult on documentation for identity and enterprise software teams, and train and evaluate AI models on technical writing. I use AI every day: to review my work and, from time to time, to explore ideas or rough out a first draft that I then refine. That includes Joule in my SAP work and AI-assisted checks in VS Code and GitHub.
+Today I work as an SAP consultant and technical writer, consult on documentation for identity and enterprise software teams, and train and evaluate AI models on technical writing. I use AI tools like Claude and SAP Joule every day: to review my work and, from time to time, to explore ideas or rough out a first draft that I then refine, along with AI-assisted checks in VS Code and GitHub.
 
 My work covers the whole documentation lifecycle: planning the information architecture, writing and testing the content, setting the style, building the publishing pipeline, and keeping it all current release after release.
 
