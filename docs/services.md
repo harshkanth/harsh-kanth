@@ -4,7 +4,7 @@ description: Documentation services from Harsh Kanth, including product and API 
 
 # Services
 
-<p class="lead">I help software teams ship documentation that's accurate, consistent, and easy to maintain. I work as an embedded writer, a consultant on a defined project, or a long-term documentation owner.</p>
+<p class="lead">I help software teams ship documentation that's accurate, consistent, and easy to maintain, and write content that explains their products to everyone else. I work as an embedded writer, a consultant on a defined project, or a long-term documentation owner.</p>
 
 <div class="grid cards" markdown>
 
@@ -26,17 +26,17 @@ description: Documentation services from Harsh Kanth, including product and API 
 
     Portal structure and taxonomy, templates, content reuse, and migration from static files to docs as code.
 
--   :material-format-list-checks:{ .lg .middle } **Style guides and governance**
+-   :material-format-list-checks:{ .lg .middle } **Style guides, governance, and audits**
 
     ---
 
-    House style guides, terminology management, review workflows, and compliance passes across existing docs.
+    House style guides, terminology management, and review workflows, plus audits of existing docs with a prioritized plan.
 
--   :material-magnify-scan:{ .lg .middle } **Documentation audits**
+-   :material-pen:{ .lg .middle } **Content writing**
 
     ---
 
-    A review of your current docs against user tasks and style, with a prioritized plan to fix what matters most.
+    Articles, whitepapers, case studies, web copy, and ghostwritten content that explains technical ideas to a wider audience.
 
 -   :material-school-outline:{ .lg .middle } **Training and enablement**
 

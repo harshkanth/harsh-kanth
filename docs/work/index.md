@@ -1,94 +1,99 @@
 ---
-description: Case studies from Harsh Kanth's documentation work for SAP, Microsoft, OneShield, EXL, and enterprise product teams.
+description: Case studies from Harsh Kanth's technical writing, content design, and content writing work for SAP, Microsoft, Avancer, OneShield, EXL, and brands.
 ---
 
 # Work
 
-<p class="lead">Selected documentation projects, each written up as a short case study: the problem, what I delivered, and how I approached it.</p>
+<p class="lead">Selected projects, grouped by the three kinds of writing I do. Each case study covers the problem, what I delivered, and how I approached it.</p>
 
-Most enterprise documentation is confidential or lives behind a customer login. Where a deliverable is public, I link to it. Where it isn't, the case study describes the scope and structure, and I can walk you through redacted samples on a call.
+Most enterprise documentation is confidential or behind a customer login. Where a deliverable is public, I link to it. Where it isn't, the case study describes the scope and structure, and I can walk you through redacted samples on a call.
 
-## Current
+## Technical writing
 
-<div class="grid cards" markdown>
+<div class="grid cards two-up" markdown>
 
--   :material-transmission-tower:{ .lg .middle } **SAP DER MCM product assistance**
+-   <span class="hk-slug">sap / energy · ongoing</span>
 
-    ---
+    **SAP DER MCM product assistance**
 
     Product assistance for Measurement Concept Management in SAP Distributed Energy Resources, published on the SAP Help Portal.
 
-    <span class="chip">SAP</span><span class="chip">Energy</span><span class="chip">Ongoing</span>
-
     [:octicons-arrow-right-24: Read more](sap-der-mcm.md)
 
--   :material-shield-account:{ .lg .middle } **IGA Application Onboarding Hub suite**
+-   <span class="hk-slug">avancer / identity · ongoing</span>
 
-    ---
+    **IGA Application Onboarding Hub suite**
 
-    A full documentation suite for an identity governance product: installation, admin, and owner guides, architecture, and store listing copy.
-
-    <span class="chip">Avancer</span><span class="chip">Identity</span><span class="chip">Ongoing</span>
+    Installation, admin, and owner guides, solution architecture, integration prerequisites, and store listing copy for an identity governance product.
 
     [:octicons-arrow-right-24: Read more](avancer-iga-onboarding-hub.md)
 
--   :material-format-list-checks:{ .lg .middle } **Style guide and docs governance**
+-   <span class="hk-slug">microsoft / developer docs</span>
 
-    ---
-
-    A house style guide and compliance passes that brought a multi-product documentation set to one standard.
-
-    <span class="chip">Avancer</span><span class="chip">Governance</span>
-
-    [:octicons-arrow-right-24: Read more](avancer-docs-governance.md)
-
-</div>
-
-## Earlier
-
-<div class="grid cards" markdown>
-
--   :material-microsoft-teams:{ .lg .middle } **Microsoft Teams developer docs**
-
-    ---
+    **Microsoft Teams developer docs**
 
     Authentication and single sign-on content for the Teams developer platform, live on Microsoft Learn.
 
-    <span class="chip">Microsoft</span><span class="chip">Developer docs</span>
-
     [:octicons-arrow-right-24: Read more](microsoft-teams.md)
 
--   :material-source-branch:{ .lg .middle } **RPA docs-as-code migration**
+-   <span class="hk-slug">exl / docs as code</span>
 
-    ---
+    **RPA docs-as-code migration**
 
     Documentation for an RPA platform written from scratch and moved to a Git-based MkDocs portal.
 
-    <span class="chip">EXL</span><span class="chip">Docs as code</span>
-
     [:octicons-arrow-right-24: Read more](exl-rpa-docs.md)
 
--   :material-file-document-multiple:{ .lg .middle } **Insurance platform documentation**
+-   <span class="hk-slug">oneshield / team lead</span>
 
-    ---
+    **Insurance platform documentation**
 
-    Led the documentation team for insurance core systems, metadata tooling, and CI/CD pipelines.
-
-    <span class="chip">OneShield</span><span class="chip">Team lead</span>
+    Led the documentation team for insurance core systems, metadata tooling, AI software, and CI/CD pipelines.
 
     [:octicons-arrow-right-24: Read more](oneshield.md)
 
--   :material-sitemap:{ .lg .middle } **Documentation overhaul across four companies**
+</div>
 
-    ---
+## Content design and architecture
 
-    Rebuilt templates, style, and taxonomy for a retail-tech group's four subsidiaries and moved siloed content into Git.
+<div class="grid cards two-up" markdown>
 
-    <span class="chip">Vision Group</span><span class="chip">Architecture</span>
+-   <span class="hk-slug">avancer / governance</span>
+
+    **Style guide and docs governance**
+
+    A house style guide, a document identity system, and compliance passes that brought several products to one standard.
+
+    [:octicons-arrow-right-24: Read more](avancer-docs-governance.md)
+
+-   <span class="hk-slug">vision group / architecture</span>
+
+    **Documentation overhaul across four companies**
+
+    New templates, style, and taxonomy for four retail-tech subsidiaries, with siloed content moved into a CMS and Git.
 
     [:octicons-arrow-right-24: Read more](vision-group.md)
 
 </div>
 
-!!! tip "Looking for writing you can read right now?"
-    The [Samples](../samples/index.md) section has complete, public guides written in the same style I use for client work.
+## Content writing
+
+<div class="grid cards two-up" markdown>
+
+-   <span class="hk-slug">bmw · amazon · western union</span>
+
+    **Content writing and ghostwriting**
+
+    Articles, whitepapers, case studies, web copy, and product content for brands and agencies, much of it under client bylines.
+
+    [:octicons-arrow-right-24: Read more](content-writing.md)
+
+-   <span class="hk-slug">samples / public</span>
+
+    **Writing samples you can read now**
+
+    Complete, public guides written in the same structure and style I use for client documentation.
+
+    [:octicons-arrow-right-24: Browse samples](../samples/index.md)
+
+</div>
