@@ -1,95 +1,193 @@
-# Welcome to my documentation portfolio
-
-This site is a curated collection of my work as a Senior and Lead technical writer, content strategist and designer, UX writer, and documentation architect and owner, designed to showcase the depth, precision, and versatility of the content I create.
-
-I built this site single-handedly, from structure to design, as a direct demonstration of my skills and craftsmanship. After all, what better portfolio could a technical writer present than a fully self-developed documentation platform?
-
-With over **10 years of experience**, I have led and delivered end-to-end documentation for Fortune 500 companies, product startups, agencies, and cross-functional tech teams. From building documentation systems for **Microsoft Teams** to creating platform-wide architecture content for **OneShield**, this portfolio reflects how I simplify complexity and structure knowledge at scale.
-
-**Interested in my work? Check out the following:**  
-
-- [View Documentation Samples](Documentation_overview.md) 📚 
-- [Download My Resume](Harsh_Kanth_10_Years_Tech_Writer.pdf) 📄 
-- [Visit My GitHub Profile](https://github.com/harshkanth) :octicons-mark-github-16:
-
-!!! tip
-    - Check out the [What's New](Whatsnew.md) section to see the latest updates on the website!
-    - Check out the Blogs section to read some thoughtful blogs.
-
+---
+title: Technical writer and documentation owner
+description: >-
+  Harsh Kanth plans, writes, and owns product, API, and developer documentation,
+  from the first outline to the published portal. Built as docs as code.
+hide:
+  - navigation
+  - toc
 ---
 
-## Why this portfolio exists
+<div class="hk-hero" markdown>
 
-In today’s digital-first ecosystem, documentation is no longer an afterthought. It is a product, a brand experience, and a strategic asset.
+<div class="hk-hero__intro" markdown>
 
-**I created this site to:**
+<p class="hk-path"><span>~/</span>harshkanth.com</p>
 
-- Showcase my ability to own the **entire documentation lifecycle**, from initial planning and architecture to final publishing and optimization  
-- Demonstrate my comfort with **documentation platforms**, **Git-based workflows**, **theming**, **SEO**, and **developer tools**  
-- Provide a live example of how I approach documentation design, **user-first**, **scalable**, and **technically sound**  
-- Show how I think about documentation, not just what I write  
-- Share examples of my **real-world work**, **structure**, and **problem-solving**  
-- Offer **clients, recruiters, and collaborators** a firsthand look at the quality of content I deliver  
-- Highlight my experience using tools like **MkDocs**, **Markdown**, **Git**, and **CI/CD environments**, all of which I use daily
+<h1 class="hk-title">Technical writer and documentation owner.</h1>
 
-I have built documentation for AI/ML systems, SDKs, API platforms, image recognition tools, insurance products, and fintech apps, and I understand how content aligns with product design, engineering workflows, and user psychology.
+<p class="hk-sub">I'm Harsh Kanth. For more than ten years I've planned, written, and managed documentation for enterprise software, developer platforms, and SaaS products. I own documentation end to end, from structure and writing to review and publishing, and I also train and evaluate AI models on technical writing.</p>
 
----
+<div class="hk-actions" markdown>
+[:material-briefcase-outline: See my work](work/index.md){ .md-button .md-button--primary }
+[:material-source-branch: Docs as code](docs-as-code.md){ .md-button }
+[:material-certificate-outline: Certifications](certifications.md){ .md-button }
+[:material-file-download-outline: Résumé](assets/Harsh_Kanth_Resume.pdf){ .md-button }
+</div>
 
-## What you’ll find here
+</div>
 
-This site includes select samples across different documentation categories:
+<div class="hk-flow" role="img" aria-label="Documentation I own end to end: plan, write, review, publish, maintain, every release">
+  <span>plan</span>
+  <span>write</span>
+  <span>review</span>
+  <span>publish</span>
+  <span>maintain</span>
+  <em>every release</em>
+</div>
 
-- 📄 **Sample guides and tutorials**: End-user docs, onboarding flows, and system walkthroughs  
-- 🔍 **Developer docs and API references**: Technical documentation focused on usability and clarity  
-- 🧠 **Content strategy artifacts**: Taxonomy plans, documentation frameworks, editorial workflows  
-- ✍️ **UX and microcopy writing**: Interface language for onboarding, modals, tooltips, and alerts  
-- 🛠️ **Process and SOP documentation**: Internal wikis, operational runbooks, and training content  
-- 📚 **Proofreading, QA workflows, and style guide enforcement**: Peer-review checklists, editorial feedback systems, Microsoft Style Guide alignment, and template-driven authoring
+</div>
 
-Each item is curated to reflect how I approach **structure, clarity, and intent**, putting users at the center of every sentence.
+## What I do
 
----
+<div class="grid cards skills" markdown>
 
-## Industries I have worked in
+-   :material-folder-account-outline:{ .lg } **Documentation ownership**
 
-Over the years, I have created documentation across:
+    Owning and managing documentation end to end: planning, priorities, schedules, reviews, and quality.
 
-- SaaS and platform services  
-- AI, ML, and image recognition  
-- Fintech and insurtech  
-- Robotic process automation (RPA)  
-- Retail tech and autonomous stores  
-- Automotive UX  
-- Cloud tools, SDKs, and API products  
-- E-commerce, edtech, and consumer platforms  
-- Healthcare industry  
-- Aviation
+-   :material-book-open-page-variant:{ .lg } **Product documentation**
 
-This site includes samples from those experiences, adapted or recreated for confidentiality where needed.
+    Admin, user, and installation guides, product assistance, release notes, and What's New entries.
 
----
+-   :material-api:{ .lg } **API and developer docs**
 
-## Who I work with
+    REST references, SDK and integration guides, authentication flows, and Swagger/OpenAPI content.
 
-I have partnered with:
+-   :material-sitemap:{ .lg } **Architecture and governance**
 
-- **Global tech companies** like Microsoft, Amazon, and BMW  
-- **Startups and product teams** building their first documentation layers  
-- **Agencies and consulting firms** seeking technical or branded content support  
-- **Cross-functional teams** including PMs, developers, designers, and analysts
+    Portal structure, taxonomy, and platform migrations, plus style guides, terminology, and documentation audits.
 
-I bring structured systems, empathetic writing, and deep documentation insight into every project, from MVPs to enterprise-scale platforms.
+-   :material-school-outline:{ .lg } **Knowledge and training**
 
----
+    Training modules and video courses, including one for Board Infinity on Coursera and modules for SAP MCM, SAP S/4HANA, and OneShield.
 
-## Let’s work together
+-   :material-source-branch:{ .lg } **Docs as code**
 
-Whether you need someone to **build a documentation system from scratch**, **lead a team of writers**, or simply **write with clarity and consistency**, I can help.
+    Markdown, Git, MkDocs, and CI/CD publishing, with AI-assisted review in VS Code and GitHub.
 
-📫 Reach out via the [Contact](contact.md) page, [chat with me on WhatsApp](https://wa.me/917827620848), or connect with me on [LinkedIn](https://www.linkedin.com/in/harsh-kanth-53974164/).
+-   :material-robot-outline:{ .lg } **AI training and evaluation**
 
----
+    Building AI pipelines, writing and reviewing outputs, and evaluating them to train models on technical writing.
 
-Thanks for stopping by.  
-Explore the sections, click around, and see what clear, scalable documentation looks like in action.
+-   :material-pen:{ .lg } **Content and UX writing**
+
+    Articles, whitepapers, case studies, and web copy, plus onboarding flows, error messages, and microcopy.
+
+</div>
+
+<div class="hk-dac" markdown>
+
+<div markdown>
+
+<span class="hk-slug">this site / docs as code</span>
+
+## This portfolio is a work sample too
+
+Every page here is a Markdown file in a public GitHub repository. Changes go through Git, a strict build checks every link and page, and GitHub Actions publishes the site. I wrote this site myself, with AI as a working partner: mostly for review, sometimes for ideas or a rough first draft that I then rework. I decide what stays.
+
+[:octicons-arrow-right-24: How this site is built](docs-as-code.md){ .md-button }
+[:fontawesome-brands-github: View the source](https://github.com/harshkanth/harsh-kanth){ .md-button }
+
+</div>
+
+<ol class="hk-pipeline">
+  <li><span>write</span>I write in Markdown, in VS Code</li>
+  <li><span>review</span>AI checks structure and style</li>
+  <li><span>commit</span>Pull request on GitHub</li>
+  <li><span>build</span><code>mkdocs build --strict</code></li>
+  <li><span>publish</span>GitHub Actions → harshkanth.com</li>
+</ol>
+
+</div>
+
+## Selected work
+
+<div class="grid cards two-up" markdown>
+
+-   <span class="hk-slug">sap · ongoing</span>
+
+    **SAP DER MCM product assistance**
+
+    End-to-end product assistance for Measurement Concept Management in SAP Distributed Energy Resources, published on the SAP Help Portal.
+
+    [:octicons-arrow-right-24: Read the case study](work/sap-der-mcm.md)
+
+-   <span class="hk-slug">avancer · consultant</span>
+
+    **Avancer documentation consulting**
+
+    A complete product documentation suite, a house style guide, and the migration of the documentation from Microsoft 365 to Confluence.
+
+    [:octicons-arrow-right-24: Read the case study](work/avancer.md)
+
+-   <span class="hk-slug">uber · outlier · mercor</span>
+
+    **AI training and evaluation**
+
+    Building AI pipelines, writing and reviewing outputs, and evaluating them to train models on technical writing.
+
+    [:octicons-arrow-right-24: Read the case study](work/ai-training.md)
+
+-   <span class="hk-slug">microsoft · developer docs</span>
+
+    **Microsoft Teams developer docs**
+
+    Authentication and single sign-on content for the Teams developer platform, written to the Microsoft Style Guide and live on Microsoft Learn.
+
+    [:octicons-arrow-right-24: Read the case study](work/microsoft-teams.md)
+
+-   <span class="hk-slug">board infinity · sap · oneshield</span>
+
+    **Knowledge and training**
+
+    Training modules and video courses, including Fundamentals of Technical Writing on Coursera and several modules for SAP and OneShield.
+
+    [:octicons-arrow-right-24: Read the case study](work/training.md)
+
+-   <span class="hk-slug">exl · docs as code</span>
+
+    **RPA docs-as-code migration**
+
+    Documentation for an RPA platform written from scratch and moved from static files to a Git-based MkDocs portal.
+
+    [:octicons-arrow-right-24: Read the case study](work/exl-rpa-docs.md)
+
+</div>
+
+[:octicons-arrow-right-24: All projects](work/index.md){ .md-button }
+
+## How I work
+
+<div class="grid cards principles" markdown>
+
+-   **Clarity**
+
+    Plain, precise language that matches what the reader is trying to do, not what the system calls it.
+
+-   **Structure**
+
+    Task-first organization, consistent templates, and content built to be reused instead of rewritten.
+
+-   **Accuracy**
+
+    Every procedure checked against the product, and every fact checked against its source.
+
+-   **Maintainability**
+
+    Docs as code, version control, and review workflows that let content keep pace with releases.
+
+</div>
+
+<div class="hk-cta" markdown>
+
+## Have something that needs writing?
+
+Documentation, a content system, or words for your brand: I take on projects, audits, and long-term documentation ownership.
+
+<div class="hk-actions" markdown>
+[Start a conversation](contact.md){ .md-button .md-button--primary }
+[What I offer](services.md){ .md-button }
+</div>
+
+</div>

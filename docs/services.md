@@ -1,121 +1,69 @@
+---
+description: Documentation services from Harsh Kanth, including product and API documentation, documentation architecture, style guides, and documentation audits.
+---
+
 # Services
 
-Welcome to the **Services** section of BECDEG, where a decade of industry-spanning writing and documentation expertise is offered with precision, clarity, and strategic insight.
+<p class="lead">I help software teams ship documentation that's accurate, consistent, and easy to maintain, and write content that explains their products to everyone else. I work as an embedded writer, a consultant on a defined project, or a long-term documentation owner.</p>
 
-From building full-scale documentation systems to writing SEO blogs, UX microcopy, and developer guides, I bring a structured approach to every content challenge, tailored to business goals and end-user needs.
+<div class="grid cards" markdown>
 
----
+-   :material-book-open-page-variant:{ .lg .middle } **Product documentation**
 
-## 🛠️ Technical documentation
+    ---
 
-Delivering structured, scalable technical content.
+    Installation, admin, and user guides, product assistance, and release notes for SaaS and enterprise products.
 
-**Deliverables include:**
-- End-user manuals, feature guides, and server documentation
-- CI/CD documentation for Jenkins, Bamboo, JFrog, and Nexus
-- AI/ML platform guides and metadata schema documentation
-- Architecture diagrams and training videos
-- Release notes, SDK guides, and executive summaries
-- Standard operating procedures (SOPs) and internal knowledge bases
+-   :material-api:{ .lg .middle } **API and developer documentation**
 
-**Tools:** GitHub, Markdown, SharePoint, Confluence, Azure DevOps, LMS, Camtasia
+    ---
 
----
+    REST and GraphQL references, SDK and integration guides, authentication flows, and Swagger/OpenAPI content.
 
-## 🔍 API, SDK, and developer documentation
+-   :material-sitemap:{ .lg .middle } **Documentation architecture**
 
-Creating developer-focused, integration-ready content.
+    ---
 
-**Deliverables include:**
-- API references (REST, GraphQL) and Postman collections
-- Swagger/OpenAPI documentation
-- SDK integration and onboarding guides
-- Authentication workflows and identity management documentation
-- Microsoft Teams documentation aligned with Microsoft Style Guide standards
+    Portal structure and taxonomy, templates, content reuse, and migration to docs as code with AI-assisted review.
 
-**Example:**  
-- [Microsoft Teams SSO Authentication Documentation](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/authentication/auth-aad-sso-bots)
+-   :material-format-list-checks:{ .lg .middle } **Style guides, governance, and audits**
 
----
+    ---
 
-## 🧠 Content strategy and documentation architecture
+    House style guides, terminology management, and review workflows, plus audits of existing docs with a prioritized plan.
 
-Building sustainable, scalable documentation ecosystems.
+-   :material-pen:{ .lg .middle } **Content writing**
 
-**Deliverables include:**
-- Documentation architecture planning and repository setup
-- CMS migrations and taxonomy design
-- Custom templates for technical documentation
-- Governance systems, style guides, and quality control frameworks
-- Agile documentation project management (SDLC, CI/CD cycles)
+    ---
 
----
+    Articles, whitepapers, case studies, web copy, and ghostwritten content that explains technical ideas to a wider audience.
 
-## ✍️ UX writing and microcopy
+-   :material-school-outline:{ .lg .middle } **Training and enablement**
 
-Writing user-centered product content.
+    ---
 
-**Deliverables include:**
-- Onboarding flows, CTAs, modals, alerts, and tooltips
-- Error messages, empty states, and recovery flows
-- Microcopy for fintech, SaaS, e-commerce, and AR/VR platforms
-- Accessible UX copy (aligned with WCAG 2.1)
+    Video training, onboarding content, SOPs, and knowledge transfer so your team can maintain the docs.
 
----
+</div>
 
-## 📢 B2B, B2C, and SEO content writing
+## Ways to work together
 
-Delivering brand-aligned, analytics-driven content.
+| Engagement | Best for |
+|------------|----------|
+| **Project** | A defined deliverable, such as a product launch doc set, an API reference, or a portal migration |
+| **Retainer** | Ongoing documentation ownership alongside your release cycle |
+| **Audit** | A clear picture of what's working, what isn't, and what to fix first |
 
-**Deliverables include:**
-- SEO blogs, whitepapers, and case studies
-- Landing pages and product descriptions
-- Requirement documentation and RFP content
-- Ghostwriting for major brands
-- Content audits, keyword planning, and SEO optimization
+## How a project runs
 
----
+1. **Discovery.** I learn the product, the readers, and the release plan, and review any existing docs.
+2. **Plan.** You get an outline, a terminology list, and a schedule before writing starts.
+3. **Write and test.** I write against the real product and test every procedure.
+4. **Review.** Your SMEs and product owners review in a lightweight loop, in Git, Confluence, or Word.
+5. **Publish and hand over.** The docs go live on your platform, with templates and guidance so they stay current.
 
-## 🧩 Internal documentation, training, and team enablement
+## Industries
 
-Developing internal knowledge management systems.
+Enterprise software and SAP · Energy and utilities · Identity and access management · Developer platforms · Insurtech and fintech · AI, ML, and automation · Retail tech and AR/VR · E-commerce and consumer apps
 
-**Deliverables include:**
-- SOPs, internal wikis, and playbooks
-- Training videos and LMS course material
-- Documentation quality assurance (QA) systems
-- Cross-functional collaboration with development and product teams
-
----
-
-## 🧭 Executive communications and leadership documentation
-
-Supporting strategic communications across teams.
-
-**Deliverables include:**
-- Executive summaries and leadership updates
-- Strategic documentation for internal and external stakeholders
-- Client presentation content and board reports
-
----
-
-## 🌐 Industries served
-
-- SaaS, platform services, and cloud infrastructure
-- AI, ML, automation, and metadata
-- Fintech, banking, and insurtech
-- Retail technology, AR/VR, and e-commerce
-- Automotive UX and smart mobility
-- Education technology and consumer applications
-
----
-
-## 🤝 Engagement models
-
-- Full-time and strategic consulting roles
-- Contract and freelance project support
-- Documentation system design and architecture
-- Content leadership and mentorship
-- Specialized technical and UX writing engagements
-
-📫 Visit the [Contact](contact.md) page to connect.
+[Discuss a project](contact.md){ .md-button .md-button--primary }
