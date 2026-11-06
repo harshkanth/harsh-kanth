@@ -113,7 +113,7 @@ Every page here is a Markdown file in a public GitHub repository. Changes go thr
 
     [:octicons-arrow-right-24: Read the case study](work/sap-der-mcm.md)
 
--   <span class="hk-slug">avancer · consultant · ongoing</span>
+-   <span class="hk-slug">avancer · consultant</span>
 
     **Avancer documentation consulting**
 

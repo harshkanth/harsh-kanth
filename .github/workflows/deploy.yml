@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest   # a fresh Linux machine in GitHub's cloud
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -19,5 +19,5 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict   # fail on any broken link or page
+      - run: mkdocs build --strict
       - run: mkdocs gh-deploy --force

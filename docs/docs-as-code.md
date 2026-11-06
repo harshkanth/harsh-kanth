@@ -40,22 +40,20 @@ The deploy workflow is short enough to read in full:
 ```yaml title=".github/workflows/deploy.yml"
 on:
   push:
-    branches: [main]          # run every time a change is merged to main
+    branches: [main]
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest    # a fresh Linux machine in GitHub's cloud
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4          # get the Markdown source
-      - uses: actions/setup-python@v5      # MkDocs runs on Python
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -r requirements.txt   # pinned MkDocs versions
-      - run: mkdocs build --strict             # fail on any broken link or page
-      - run: mkdocs gh-deploy --force          # publish to GitHub Pages
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --strict
+      - run: mkdocs gh-deploy --force
 ```
-
-GitHub starts a new virtual machine for each run, builds the site, publishes it, and discards the machine, so every release is built the same way from a clean start.
 
 ## How the repository is organized
 

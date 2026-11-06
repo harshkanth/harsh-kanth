@@ -220,8 +220,10 @@
 /* ---------- Home: hero ---------- */
 .md-typeset .hk-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 3rem;
+  grid-template-columns: minmax(0, 40rem) auto;
+  justify-content: space-between;
+  column-gap: 3rem;
+  max-width: 54rem;
   align-items: center;
   padding: 2.4rem 0 1.6rem;
 }

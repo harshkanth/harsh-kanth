@@ -21,7 +21,7 @@ Most enterprise documentation is confidential or behind a customer login. Where 
 
     [:octicons-arrow-right-24: Read more](sap-der-mcm.md)
 
--   <span class="hk-slug">avancer · consultant · ongoing</span>
+-   <span class="hk-slug">avancer · consultant</span>
 
     **Avancer documentation consulting**
 
