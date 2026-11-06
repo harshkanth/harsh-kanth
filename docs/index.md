@@ -27,10 +27,13 @@ hide:
 
 </div>
 
-<div class="hk-figures">
-  <div><strong>10+</strong><span>years owning documentation</span></div>
-  <div><strong>18</strong><span>industries</span></div>
-  <div><strong>3</strong><span>AI training projects</span></div>
+<div class="hk-flow" role="img" aria-label="Documentation I own end to end: plan, write, review, publish, maintain, every release">
+  <span>plan</span>
+  <span>write</span>
+  <span>review</span>
+  <span>publish</span>
+  <span>maintain</span>
+  <em>every release</em>
 </div>
 
 </div>
@@ -51,13 +54,13 @@ hide:
 
     REST references, SDK and integration guides, authentication flows, and Swagger/OpenAPI content.
 
--   :material-sitemap:{ .lg } **Information architecture**
+-   :material-sitemap:{ .lg } **Architecture and governance**
 
-    Portal structure, taxonomy, templates, content reuse, and migrations between platforms.
+    Portal structure, taxonomy, and platform migrations, plus style guides, terminology, and documentation audits.
 
--   :material-format-list-checks:{ .lg } **Style guides and governance**
+-   :material-school-outline:{ .lg } **Knowledge and training**
 
-    House style guides, terminology management, review workflows, and documentation audits.
+    Training modules and video courses, including one for Board Infinity on Coursera and several for SAP and OneShield.
 
 -   :material-source-branch:{ .lg } **Docs as code**
 
@@ -71,29 +74,6 @@ hide:
 
     Articles, whitepapers, case studies, and web copy, plus onboarding flows, error messages, and microcopy.
 
-</div>
-
-## Industries
-
-<div class="hk-industries">
-  <span>Enterprise software and SAP</span>
-  <span>Energy and utilities</span>
-  <span>Identity and access management</span>
-  <span>Developer platforms and collaboration</span>
-  <span>SaaS and cloud</span>
-  <span>Insurance and insurtech</span>
-  <span>Fintech and payments</span>
-  <span>AI and machine learning</span>
-  <span>Robotic process automation</span>
-  <span>Retail tech and autonomous stores</span>
-  <span>AR and VR</span>
-  <span>E-commerce</span>
-  <span>Automotive</span>
-  <span>Telecom</span>
-  <span>Healthcare</span>
-  <span>Aviation</span>
-  <span>Edtech</span>
-  <span>Consumer products</span>
 </div>
 
 <div class="hk-dac" markdown>
@@ -156,6 +136,22 @@ Every page here is a Markdown file in a public GitHub repository. Changes go thr
     Authentication and single sign-on content for the Teams developer platform, written to the Microsoft Style Guide and live on Microsoft Learn.
 
     [:octicons-arrow-right-24: Read the case study](work/microsoft-teams.md)
+
+-   <span class="hk-slug">board infinity · sap · oneshield</span>
+
+    **Knowledge and training**
+
+    Training modules and video courses, including Fundamentals of Technical Writing on Coursera and several modules for SAP and OneShield.
+
+    [:octicons-arrow-right-24: Read the case study](work/training.md)
+
+-   <span class="hk-slug">exl · docs as code</span>
+
+    **RPA docs-as-code migration**
+
+    Documentation for an RPA platform written from scratch and moved from static files to a Git-based MkDocs portal.
+
+    [:octicons-arrow-right-24: Read the case study](work/exl-rpa-docs.md)
 
 </div>
 

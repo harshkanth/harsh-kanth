@@ -11,7 +11,7 @@ description: Case studies from Harsh Kanth's documentation work for SAP, Avancer
 
 Most enterprise documentation is confidential or behind a customer login. Where a deliverable is public, I link to it. Where it isn't, the case study describes the scope and structure, and I can walk you through redacted samples on a call.
 
-<div class="grid cards two-up" markdown>
+<div class="grid cards three-up" markdown>
 
 -   <span class="hk-slug">sap · ongoing</span>
 
@@ -68,6 +68,14 @@ Most enterprise documentation is confidential or behind a customer login. Where 
     Authentication and single sign-on content for the Teams developer platform, live on Microsoft Learn.
 
     [:octicons-arrow-right-24: Read more](microsoft-teams.md)
+
+-   <span class="hk-slug">board infinity · sap · oneshield</span>
+
+    **Knowledge and training**
+
+    Training modules and video courses for Coursera, SAP, and OneShield, plus knowledge transfer for teams.
+
+    [:octicons-arrow-right-24: Read more](training.md)
 
 -   <span class="hk-slug">bmw · amazon · western union</span>
 

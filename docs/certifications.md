@@ -34,3 +34,5 @@ Card template: copy one block per certification.
     A complete video training module that teaches the craft of technical writing to new writers, published on Coursera.
 
 </div>
+
+See [Knowledge and training](work/training.md) for the modules I've built for SAP and OneShield.
