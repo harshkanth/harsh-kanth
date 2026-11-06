@@ -73,13 +73,25 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 <div class="role" markdown>
 
 ### Senior technical writer (contract) · EXL Service
-<span class="when">2025 · Remote</span>
+<span class="when">Apr 2025 - July 2026 · Remote</span>
 
 - Proposed and built an online, docs-as-code portal for the iBOT RPA platform using Markdown, GitHub, and MkDocs
 - Wrote user manuals, troubleshooting guides, and workflow and integration documentation
 - Reviewed team content and ran knowledge transfer sessions
 
 [:octicons-arrow-right-24: Case study](work/exl-rpa-docs.md)
+
+</div>
+
+<div class="role" markdown>
+
+### Technical Writer and Documentation Consultant · Touch 'n Go (Malaysia)
+<span class="when">Dec 2024 – Mar 2025 · Fintech</span>
+
+- Created UX microcopy, onboarding flows, standard operating procedures (SOPs), and customer support documentation for a mobile wallet application.
+- Collaborated closely with UI/UX designers, project managers, and product teams to keep the documentation consistent and clear.
+- Developed user-friendly content to improve the customer experience in the mobile wallet application.
+- Streamlined internal communication by writing concise guides for internal stakeholders on troubleshooting, usage, and updates.
 
 </div>
 
