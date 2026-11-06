@@ -8,7 +8,7 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 [:material-file-download-outline: Download résumé (PDF)](assets/Harsh_Kanth_Resume.pdf){ .md-button }
 
-## Now
+## Current role
 
 <div class="role role--current" markdown>
 
@@ -23,12 +23,13 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 </div>
 
+## Other roles
+
 <div class="role role--current" markdown>
 
 ### Documentation consultant · Avancer
-<span class="when">Present</span>
 
-- Wrote the documentation suite for the IGA Application Onboarding Hub, from installation and admin guides to the ServiceNow Store listing
+- Created the documentation suite for the IGA Application Onboarding Hub, from installation and admin guides to the ServiceNow Store listing
 - Authored Avancer Style Guide v2.0 and ran compliance passes across several identity products
 - Migrated documentation from Microsoft 365 to Confluence Cloud, set up the space, and maintain it
 
@@ -39,7 +40,6 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 <div class="role role--current" markdown>
 
 ### Writer and reviewer · Mercor, Project Odin
-<span class="when">Present</span>
 
 - Write content and review outputs to train AI models
 
@@ -73,7 +73,7 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 <div class="role" markdown>
 
 ### Senior technical writer (contract) · EXL Service
-<span class="when">2025 · Remote</span>
+<span class="when">Apr 2025 - July 2026</span>
 
 - Proposed and built an online, docs-as-code portal for the iBOT RPA platform using Markdown, GitHub, and MkDocs
 - Wrote user manuals, troubleshooting guides, and workflow and integration documentation
@@ -85,8 +85,20 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 <div class="role" markdown>
 
+### Technical Writer and Documentation Consultant · Touch 'n Go (Malaysia)
+<span class="when">Dec 2024 – Mar 2025</span>
+
+- Created UX microcopy, onboarding flows, standard operating procedures (SOPs), and customer support documentation for a mobile wallet application.
+- Collaborated closely with UI/UX designers, project managers, and product teams to keep the documentation consistent and clear.
+- Developed user-friendly content to improve the customer experience in the mobile wallet application.
+- Streamlined internal communication by writing concise guides for internal stakeholders on troubleshooting, usage, and updates.
+
+</div>
+
+<div class="role" markdown>
+
 ### Lead technical writer · OneShield Software
-<span class="when">Mar 2023 – Jan 2025 · Remote</span>
+<span class="when">Mar 2023 – Jan 2025</span>
 
 - Led the technical writing team for insurance core systems, metadata applications, and AI software
 - Documented JSON metadata, XML schemas, and CI/CD pipelines (Jenkins, Bamboo, JFrog, Nexus)
@@ -135,7 +147,6 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 | Client | Work | Dates |
 |--------|------|-------|
-| Touch 'n Go (Malaysia) | UX microcopy, onboarding flows, SOPs, and support docs for a mobile wallet | — |
 | Fusioni Technologies | Technical documentation and product overviews for SaaS and retail tech | Sep 2018 – Mar 2019 |
 | Amazon (ghostwriting) | Product descriptions and SEO content for marketplace listings | Sep 2018 – Mar 2019 |
 | BMW USA (ghostwriting) | Research-driven articles and case studies on connected vehicles | May 2018 – Oct 2018 |
@@ -143,9 +154,50 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 | ShoutVox (New York) | Blogs, whitepapers, case studies, and manuals for B2B and B2C clients | Apr 2016 – Jun 2019 |
 | Horizon Hobby | Manuals and product documentation for RC vehicles | Sep 2015 – Nov 2016 |
 
-## Teaching
+## Training
 
-- Created a complete video training module, *Fundamentals of Technical Writing*, for Board Infinity on Coursera
+Training is part of how I own documentation. Wherever I work, I turn the same product knowledge into courses, modules, and assessments, so people can learn the product, not just look things up. Knowledge transfer runs through every role; these are the training programs I built.
+
+<div class="role" markdown>
+
+### Fundamentals of Technical Writing · Board Infinity (Coursera)
+<span class="when">Video course</span>
+
+- Designed and produced a complete video course on the fundamentals of technical writing for new writers
+- Wrote the course content and recorded the video lessons, published on Coursera through Board Infinity
+
+</div>
+
+<div class="role" markdown>
+
+### SAP MCM and SAP S/4HANA training · SAP
+<span class="when">Training modules</span>
+
+- Created training modules for SAP MCM and SAP S/4HANA that take users from core concepts to day-to-day tasks
+- Kept the training aligned with the product's terminology, so learners meet the same terms in training and in the documentation
+
+</div>
+
+<div class="role" markdown>
+
+### iBOT RPA training · EXL Service
+<span class="when">Training modules · Video</span>
+
+- Created training modules and video tutorials for the iBOT RPA platform
+- Gave teams a guided path into the platform alongside the new online documentation
+
+</div>
+
+<div class="role" markdown>
+
+### Interactive courses and assessments · OneShield
+<span class="when">Absorb LMS · Camtasia</span>
+
+- Built multiple interactive training courses in Absorb LMS for OneShield's insurance and metadata products
+- Recorded video lectures in Camtasia that walk learners through product features and workflows
+- Created questionnaires, exams, and question-and-answer sets to check that learners could apply what they learned
+
+</div>
 
 ## Tools and standards
 
