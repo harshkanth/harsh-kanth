@@ -4,7 +4,7 @@ description: About Harsh Kanth, a technical writer, documentation owner, and SAP
 
 # About
 
-![Illustration of Harsh Kanth with his six dogs in a garden](assets/images/harsh-kanth.webp){ .portrait loading=lazy }
+![Illustration of Harsh Kanth with his six dogs in a garden](assets/images/harsh_and_doggos.png){ .portrait loading=lazy }
 
 <p class="lead">I'm Harsh Kanth. For more than ten years, I've helped companies explain their products clearly, from SAP enterprise software to Microsoft's developer platform to startups writing their first help center.</p>
 
