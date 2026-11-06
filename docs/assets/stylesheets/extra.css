@@ -1,8 +1,8 @@
 /* ==========================================================================
    harshkanth.com theme: technical / docs-as-code
-   Dark only. IBM Plex Sans for reading, IBM Plex Mono for headings,
-   labels, and structure. Amber accent, like a highlighted line in an
-   editor.
+   Dark by default, with a light theme on the toggle. IBM Plex Sans for
+   reading, IBM Plex Mono for headings, labels, and structure. Amber
+   accent, like a highlighted line in an editor.
    ========================================================================== */
 
 /* ---------- Tokens ---------- */
@@ -10,6 +10,44 @@
   --hk-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   --hk-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --hk-radius: 6px;
+}
+
+/* Light: cool neutral paper, the same amber used as a fill, darker amber for text */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #f5a524;
+  --md-primary-fg-color--light: #ffc35c;
+  --md-primary-fg-color--dark: #d68a0c;
+  --md-primary-bg-color: #111418;
+  --md-accent-fg-color: #a35a00;
+  --md-accent-fg-color--transparent: rgba(245, 165, 36, 0.12);
+  --md-default-bg-color: #f6f7f9;
+  --md-default-fg-color: #111418;
+  --md-default-fg-color--light: #4b5361;
+  --md-default-fg-color--lighter: #7d8594;
+  --md-default-fg-color--lightest: #e3e6eb;
+  --md-typeset-a-color: #a35a00;
+  --md-code-bg-color: #eef0f3;
+  --md-code-fg-color: #1c2128;
+  --md-code-hl-keyword-color: #7c3aed;
+  --md-code-hl-string-color: #0f766e;
+  --md-code-hl-name-color: #a35a00;
+  --md-code-hl-comment-color: #7d8594;
+  --md-code-hl-punctuation-color: #5b6372;
+  --md-code-hl-constant-color: #1d64c8;
+  --md-code-hl-number-color: #1d64c8;
+  --md-code-hl-variable-color: #a35a00;
+  --md-code-hl-generic-color: #4b5361;
+  --hk-accent: #a35a00;
+  --hk-accent-fill: #f5a524;
+  --hk-accent-soft: rgba(245, 165, 36, 0.16);
+  --hk-surface: #ffffff;
+  --hk-surface-2: #fbfbfc;
+  --hk-border: #e1e4ea;
+  --hk-border-strong: #c9ced7;
+  --hk-header-bg: rgba(255, 255, 255, 0.9);
+  --hk-cta-bg: #ffffff;
+  --hk-cta-fg: #111418;
+  --hk-cta-muted: #4b5361;
 }
 
 /* Dark: cool graphite, warm amber */
@@ -38,6 +76,7 @@
   --md-code-hl-variable-color: #f5a524;
   --md-code-hl-generic-color: #a0a7b1;
   --hk-accent: #f5a524;
+  --hk-accent-fill: #f5a524;
   --hk-accent-soft: rgba(245, 165, 36, 0.10);
   --hk-surface: #14171c;
   --hk-surface-2: #161a20;
@@ -137,16 +176,34 @@
 .md-typeset .md-button--primary,
 .md-typeset .md-button--primary:hover,
 .md-typeset .md-button--primary:focus-visible {
-  background-color: var(--hk-accent);
-  border-color: var(--hk-accent);
-  color: var(--md-primary-bg-color);
+  background-color: var(--hk-accent-fill);
+  border-color: var(--hk-accent-fill);
+  color: #111418;
 }
-.md-typeset .md-button--primary:hover { filter: brightness(1.08); }
+.md-typeset .md-button--primary:hover { filter: brightness(1.06); }
+.md-typeset .md-button .twemoji { margin-right: 0.15em; }
+.md-typeset .md-button .twemoji svg { width: 1.05em; height: 1.05em; }
 
 /* ---------- Home: hero ---------- */
 .md-typeset .hk-hero {
-  padding: 2.6rem 0 1.4rem;
-  max-width: 46rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 17rem);
+  gap: 3rem;
+  align-items: center;
+  padding: 2.4rem 0 1.6rem;
+}
+.md-typeset .hk-hero__intro { min-width: 0; }
+.md-typeset .hk-hero__art img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 12px;
+  border: 1px solid var(--hk-border);
+  box-shadow: 0 24px 48px -30px rgba(0, 0, 0, 0.5);
 }
 .md-typeset .hk-path {
   font-family: var(--hk-mono);
@@ -169,7 +226,7 @@
 
 .md-typeset .hk-hero .hk-title {
   font-family: var(--hk-mono);
-  font-size: clamp(1.7rem, 4.2vw, 2.7rem);
+  font-size: clamp(1.8rem, 4.4vw, 2.9rem);
   font-weight: 600;
   line-height: 1.18;
   letter-spacing: -0.03em;
@@ -310,7 +367,7 @@
   text-align: center;
   border-radius: 4px;
   background: var(--md-default-bg-color);
-  border: 1px solid var(--hk-accent);
+  border: 1px solid var(--hk-accent-fill);
   color: var(--hk-accent);
   font-size: 0.64rem;
 }
@@ -344,15 +401,14 @@
   padding: 1.8rem 2rem;
   border-radius: 10px;
   border: 1px solid var(--hk-border);
-  border-left: 3px solid var(--hk-accent);
+  border-left: 3px solid var(--hk-accent-fill);
   background: var(--hk-cta-bg);
   color: var(--hk-cta-fg);
 }
 .md-typeset .hk-cta h2 { color: var(--hk-cta-fg); margin: 0 0 0.4em; font-size: 1.2rem; }
 .md-typeset .hk-cta p { color: var(--hk-cta-muted); margin: 0 0 1.2em; max-width: 38rem; }
 .md-typeset .hk-cta a:not(.md-button) { color: var(--hk-accent); }
-.md-typeset .hk-cta .md-button:not(.md-button--primary) { color: var(--hk-cta-fg); border-color: #3a3f48; }
-.md-typeset .hk-cta .md-button:not(.md-button--primary):hover { background: rgba(255, 255, 255, 0.06); border-color: var(--hk-accent); }
+.md-typeset .hk-cta .md-button:not(.md-button--primary) { color: var(--hk-cta-fg); }
 
 /* ---------- Case study facts panel: key/value like front matter ---------- */
 .md-typeset .facts {
@@ -429,7 +485,8 @@
 
 /* ---------- Responsive ---------- */
 @media screen and (max-width: 60em) {
-  .md-typeset .hk-hero { padding-top: 1.2rem; }
+  .md-typeset .hk-hero { grid-template-columns: 1fr; gap: 1.6rem; padding-top: 1.2rem; }
+  .md-typeset .hk-hero__art { max-width: 15rem; }
   .md-typeset .hk-dac { grid-template-columns: 1fr; padding: 1.4rem 1.2rem; }
 }
 @media screen and (max-width: 40em) {

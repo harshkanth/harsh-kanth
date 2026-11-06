@@ -123,7 +123,7 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 
 === "AI"
 
-    Claude, SAP Joule, and AI-assisted pipelines in VS Code and GitHub
+    Claude for review, SAP Joule, and AI-assisted checks in VS Code and GitHub
 
 === "Engineering workflow"
 

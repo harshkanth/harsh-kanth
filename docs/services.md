@@ -24,7 +24,7 @@ description: Documentation services from Harsh Kanth, including product and API 
 
     ---
 
-    Portal structure and taxonomy, templates, content reuse, and migration to docs as code with AI-assisted workflows.
+    Portal structure and taxonomy, templates, content reuse, and migration to docs as code with AI-assisted review.
 
 -   :material-format-list-checks:{ .lg .middle } **Style guides, governance, and audits**
 

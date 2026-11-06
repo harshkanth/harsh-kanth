@@ -8,7 +8,7 @@ description: About Harsh Kanth, a technical writer, content designer, and SAP co
 
 <p class="lead">I'm Harsh Kanth. For more than ten years, I've helped companies explain their products clearly, from SAP enterprise software to Microsoft's developer platform to startups writing their first help center.</p>
 
-Today I work as an SAP consultant and technical writer, and consult on documentation for identity and enterprise software teams. AI is part of my daily work: Claude for drafting and review, Joule in my SAP work, and AI-assisted pipelines in VS Code and GitHub.
+Today I work as an SAP consultant and technical writer, and consult on documentation for identity and enterprise software teams. I use AI every day as a reviewer: Claude to check structure, style, and formatting, Joule in my SAP work, and AI-assisted checks in VS Code and GitHub.
 
 My work covers the whole documentation lifecycle: planning the information architecture, writing and testing the content, setting the style, building the publishing pipeline, and keeping it all current release after release.
 
@@ -24,7 +24,7 @@ My work covers the whole documentation lifecycle: planning the information archi
 
 ## About this site
 
-I built this portfolio myself as docs as code: Markdown in a public [GitHub repository](https://github.com/harshkanth/harsh-kanth), built with MkDocs and Material for MkDocs, published by GitHub Actions, and maintained with AI assistance and my review. [How this site is built](docs-as-code.md) walks through the whole setup.
+I built this portfolio myself as docs as code: Markdown in a public [GitHub repository](https://github.com/harshkanth/harsh-kanth), built with MkDocs and Material for MkDocs, and published by GitHub Actions. Every page is written by me, with AI used for review. [How this site is built](docs-as-code.md) walks through the whole setup.
 
 [Get in touch](contact.md){ .md-button .md-button--primary }
 [See my experience](experience.md){ .md-button }

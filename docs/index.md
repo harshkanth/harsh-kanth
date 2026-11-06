@@ -11,25 +11,26 @@ hide:
 
 <div class="hk-hero" markdown>
 
+<div class="hk-hero__intro" markdown>
+
 <p class="hk-path"><span>~/</span>harshkanth.com</p>
 
-<h1 class="hk-title">I write for developers, design for content, and write for people.</h1>
+<h1 class="hk-title">Clear documentation for complex products.</h1>
 
-<p class="hk-sub">I'm Harsh Kanth, a technical writer and content designer with more than ten years of experience. I write product assistance for SAP, wrote developer documentation for Microsoft Teams, build documentation systems for enterprise platforms, and write content for brands like BMW and Amazon. I work docs as code, with AI built into my daily workflow.</p>
+<p class="hk-sub">I'm Harsh Kanth, a technical writer and content designer with more than ten years of experience. I write product, API, and developer documentation for SAP, Microsoft, and enterprise platforms, design the content systems behind it, and write content for brands. I work docs as code, and this site is an example.</p>
 
 <div class="hk-actions" markdown>
-[See my work](work/index.md){ .md-button .md-button--primary }
-[How this site is built](docs-as-code.md){ .md-button }
-[Download résumé](assets/Harsh_Kanth_Resume.pdf){ .md-button }
+[:material-briefcase-outline: See my work](work/index.md){ .md-button .md-button--primary }
+[:material-source-branch: How this site is built](docs-as-code.md){ .md-button }
+[:material-file-download-outline: Download résumé](assets/Harsh_Kanth_Resume.pdf){ .md-button }
 </div>
 
-<p class="hk-now"><span>now:</span> SAP DER MCM product assistance · IGA Application Onboarding Hub</p>
-
 </div>
 
-<div class="hk-clients">
-  <span class="hk-clients__label">Written for</span>
-  <span>SAP</span><span>Microsoft</span><span>Amazon</span><span>BMW</span><span>OneShield</span><span>EXL</span><span>Holepunch</span><span>Western Union</span>
+<div class="hk-hero__art">
+  <img src="assets/images/harsh-kanth.webp" alt="Illustration of Harsh Kanth with his six dogs in a garden" width="720" height="1080">
+</div>
+
 </div>
 
 ## What I do
@@ -54,7 +55,7 @@ hide:
 
 -   :material-source-branch:{ .lg } **Docs as code and AI workflows**
 
-    Markdown, Git, MkDocs, and CI/CD publishing, with AI assistants and pipelines in VS Code and GitHub.
+    Markdown, Git, MkDocs, and CI/CD publishing, with AI-assisted review in VS Code and GitHub.
 
 -   :material-bullhorn-outline:{ .lg } **Release communication**
 
@@ -78,7 +79,7 @@ hide:
 
 ## This portfolio is a work sample too
 
-Every page here is a Markdown file in a public GitHub repository. Changes go through Git, a strict build checks every link and page, and GitHub Actions publishes the site. AI is part of the workflow: I draft, restructure, and review with Claude, use Joule in my SAP work, and run AI-assisted steps in VS Code and GitHub. Every change is checked and approved by me before it ships.
+Every page here is a Markdown file in a public GitHub repository. Changes go through Git, a strict build checks every link and page, and GitHub Actions publishes the site. I write every page myself. AI acts as a reviewer, checking structure, style, and formatting, and I decide which suggestions to keep.
 
 [:octicons-arrow-right-24: How this site is built](docs-as-code.md){ .md-button }
 [:fontawesome-brands-github: View the source](https://github.com/harshkanth/harsh-kanth){ .md-button }
@@ -86,8 +87,8 @@ Every page here is a Markdown file in a public GitHub repository. Changes go thr
 </div>
 
 <ol class="hk-pipeline">
-  <li><span>write</span>Markdown in VS Code</li>
-  <li><span>assist</span>Draft and review with AI</li>
+  <li><span>write</span>I write in Markdown, in VS Code</li>
+  <li><span>review</span>AI checks structure and style</li>
   <li><span>commit</span>Pull request on GitHub</li>
   <li><span>build</span><code>mkdocs build --strict</code></li>
   <li><span>publish</span>GitHub Actions → harshkanth.com</li>
@@ -149,7 +150,7 @@ Every page here is a Markdown file in a public GitHub repository. Changes go thr
 
 -   **Accuracy**
 
-    Every procedure checked against the product, and every AI-assisted draft verified before it ships.
+    Every procedure checked against the product, and every fact checked against its source.
 
 -   **Maintainability**
 
