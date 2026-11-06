@@ -7,7 +7,7 @@ site_description: >-
   documentation. Built as docs as code.
 repo_url: https://github.com/harshkanth/harsh-kanth
 repo_name: harshkanth/harsh-kanth
-edit_uri: edit/main/docs/
+edit_uri: ""
 copyright: >-
   &copy; 2026 Harsh Kanth &middot; Written in Markdown, versioned in Git, built with MkDocs
 
@@ -50,7 +50,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
     - content.tooltips
 
 extra_css:

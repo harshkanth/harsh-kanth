@@ -116,5 +116,3 @@ AI is part of how I work, used where it helps. Most of the time it reviews what 
 ## See it for yourself
 
 [:fontawesome-brands-github: Browse the source on GitHub](https://github.com/harshkanth/harsh-kanth){ .md-button .md-button--primary }
-
-Every page on this site has an **Edit this page** button that opens its Markdown source on GitHub.
