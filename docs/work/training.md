@@ -27,7 +27,7 @@ description: Training modules created by Harsh Kanth for Board Infinity on Cours
 
     **SAP training modules**
 
-    Several training modules created for SAP, built alongside the product documentation.
+    Training modules for SAP DER Measurement Concept Management (MCM) and SAP S/4HANA, built alongside the product documentation.
 
 -   <span class="hk-slug">oneshield</span>
 

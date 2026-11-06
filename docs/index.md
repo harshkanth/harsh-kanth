@@ -60,7 +60,7 @@ hide:
 
 -   :material-school-outline:{ .lg } **Knowledge and training**
 
-    Training modules and video courses, including one for Board Infinity on Coursera and several for SAP and OneShield.
+    Training modules and video courses, including one for Board Infinity on Coursera and modules for SAP MCM, SAP S/4HANA, and OneShield.
 
 -   :material-source-branch:{ .lg } **Docs as code**
 
