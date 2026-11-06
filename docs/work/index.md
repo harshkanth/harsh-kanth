@@ -2,20 +2,18 @@
 hide:
   - navigation
   - toc
-description: Case studies from Harsh Kanth's technical writing, documentation management, and content writing work for SAP, Microsoft, Avancer, OneShield, EXL, and brands.
+description: Case studies from Harsh Kanth's documentation work for SAP, Avancer, Microsoft, OneShield, EXL, and Vision Group, plus AI training and content writing.
 ---
 
 # Work
 
-<p class="lead">Selected projects across technical writing, documentation ownership, and content writing. Each case study covers the problem, what I delivered, and how I approached it.</p>
+<p class="lead">Selected projects, most recent first. Each case study covers the problem, what I delivered, and how I approached it.</p>
 
 Most enterprise documentation is confidential or behind a customer login. Where a deliverable is public, I link to it. Where it isn't, the case study describes the scope and structure, and I can walk you through redacted samples on a call.
 
-## Current
+<div class="grid cards two-up" markdown>
 
-<div class="grid cards three-up" markdown>
-
--   <span class="hk-slug">sap / energy · ongoing</span>
+-   <span class="hk-slug">sap · ongoing</span>
 
     **SAP DER MCM product assistance**
 
@@ -23,37 +21,23 @@ Most enterprise documentation is confidential or behind a customer login. Where 
 
     [:octicons-arrow-right-24: Read more](sap-der-mcm.md)
 
--   <span class="hk-slug">avancer / identity · ongoing</span>
+-   <span class="hk-slug">avancer · consultant · ongoing</span>
 
-    **IGA Application Onboarding Hub suite**
+    **Avancer documentation consulting**
 
-    Installation, admin, and owner guides, solution architecture, integration prerequisites, and store listing copy for an identity governance product.
+    A complete product documentation suite, a house style guide, and the migration of the documentation from Microsoft 365 to Confluence.
 
-    [:octicons-arrow-right-24: Read more](avancer-iga-onboarding-hub.md)
+    [:octicons-arrow-right-24: Read more](avancer.md)
 
--   <span class="hk-slug">avancer / governance</span>
+-   <span class="hk-slug">uber · outlier · mercor</span>
 
-    **Style guide, governance, and Confluence migration**
+    **AI training and evaluation**
 
-    Documentation moved from Microsoft 365 to Confluence, a house style guide, and compliance passes that brought several products to one standard.
+    Building AI pipelines, writing and reviewing outputs, and evaluating them to train models on technical writing.
 
-    [:octicons-arrow-right-24: Read more](avancer-docs-governance.md)
+    [:octicons-arrow-right-24: Read more](ai-training.md)
 
-</div>
-
-## Earlier
-
-<div class="grid cards two-up" markdown>
-
--   <span class="hk-slug">microsoft / developer docs</span>
-
-    **Microsoft Teams developer docs**
-
-    Authentication and single sign-on content for the Teams developer platform, live on Microsoft Learn.
-
-    [:octicons-arrow-right-24: Read more](microsoft-teams.md)
-
--   <span class="hk-slug">exl / docs as code</span>
+-   <span class="hk-slug">exl · docs as code</span>
 
     **RPA docs-as-code migration**
 
@@ -61,7 +45,7 @@ Most enterprise documentation is confidential or behind a customer login. Where 
 
     [:octicons-arrow-right-24: Read more](exl-rpa-docs.md)
 
--   <span class="hk-slug">oneshield / team lead</span>
+-   <span class="hk-slug">oneshield · team lead</span>
 
     **Insurance platform documentation**
 
@@ -69,13 +53,21 @@ Most enterprise documentation is confidential or behind a customer login. Where 
 
     [:octicons-arrow-right-24: Read more](oneshield.md)
 
--   <span class="hk-slug">vision group / architecture</span>
+-   <span class="hk-slug">vision group · document owner</span>
 
     **Documentation overhaul across four companies**
 
     New templates, style, and taxonomy for four retail-tech subsidiaries, with siloed content moved into a CMS and Git.
 
     [:octicons-arrow-right-24: Read more](vision-group.md)
+
+-   <span class="hk-slug">microsoft · developer docs</span>
+
+    **Microsoft Teams developer docs**
+
+    Authentication and single sign-on content for the Teams developer platform, live on Microsoft Learn.
+
+    [:octicons-arrow-right-24: Read more](microsoft-teams.md)
 
 -   <span class="hk-slug">bmw · amazon · western union</span>
 
@@ -85,12 +77,7 @@ Most enterprise documentation is confidential or behind a customer login. Where 
 
     [:octicons-arrow-right-24: Read more](content-writing.md)
 
--   <span class="hk-slug">samples / public</span>
-
-    **Writing samples you can read now**
-
-    Complete, public guides written in the same structure and style I use for client documentation.
-
-    [:octicons-arrow-right-24: Browse samples](../samples/index.md)
-
 </div>
+
+!!! tip "Want to read something complete?"
+    The [Samples](../samples/index.md) section has public guides written in the same structure and style I use for client documentation.

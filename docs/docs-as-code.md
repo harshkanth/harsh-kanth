@@ -84,7 +84,7 @@ I write the content myself. AI comes in afterwards, the way a second reviewer wo
 
     **Review and consistency**
 
-    Checking drafts I've written for clarity, consistency, and terminology across pages, and catching what a tired second read would miss.
+    Checking what I've written for clarity, consistency, and terminology across pages, and catching what's easy to miss in my own read.
 
 -   <span class="hk-slug">structure</span>
 

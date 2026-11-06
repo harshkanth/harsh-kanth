@@ -16,7 +16,7 @@ hide:
 
 <h1 class="hk-title">Technical writer and documentation owner.</h1>
 
-<p class="hk-sub">I'm Harsh Kanth. For more than ten years I've planned, written, and managed documentation for enterprise software, developer platforms, and SaaS products. I own documentation end to end: the structure, the writing, the review process, and the publishing pipeline, and I keep it accurate release after release.</p>
+<p class="hk-sub">I'm Harsh Kanth. For more than ten years I've planned, written, and managed documentation for enterprise software, developer platforms, and SaaS products. I own documentation end to end, from structure and writing to review and publishing, and I also train and evaluate AI models on technical writing.</p>
 
 <div class="hk-actions" markdown>
 [:material-briefcase-outline: See my work](work/index.md){ .md-button .md-button--primary }
@@ -27,16 +27,10 @@ hide:
 
 </div>
 
-<div class="hk-cycle" role="img" aria-label="The documentation lifecycle I own: plan, write, review, publish, maintain">
-  <div class="hk-cycle__head"><span>documentation lifecycle</span><span>owned end to end</span></div>
-  <ol>
-    <li><b>plan</b><span>Scope, structure, templates</span></li>
-    <li><b>write</b><span>Guides, references, release notes</span></li>
-    <li><b>review</b><span>SMEs, style, terminology</span></li>
-    <li><b>publish</b><span>Docs as code, CI/CD</span></li>
-    <li><b>maintain</b><span>Updates, audits, governance</span></li>
-  </ol>
-  <div class="hk-cycle__loop">↺ repeat every release</div>
+<div class="hk-figures">
+  <div><strong>10+</strong><span>years owning documentation</span></div>
+  <div><strong>18</strong><span>industries</span></div>
+  <div><strong>3</strong><span>AI training projects</span></div>
 </div>
 
 </div>
@@ -69,13 +63,13 @@ hide:
 
     Markdown, Git, MkDocs, and CI/CD publishing, with AI-assisted review in VS Code and GitHub.
 
--   :material-gesture-tap-button:{ .lg } **UX writing**
+-   :material-robot-outline:{ .lg } **AI training and evaluation**
 
-    Onboarding flows, error messages, tooltips, and empty states written with the product logic in mind.
+    Building AI pipelines, writing and reviewing outputs, and evaluating them to train models on technical writing.
 
--   :material-pen:{ .lg } **Content writing**
+-   :material-pen:{ .lg } **Content and UX writing**
 
-    Articles, whitepapers, case studies, web copy, and ghostwritten content.
+    Articles, whitepapers, case studies, and web copy, plus onboarding flows, error messages, and microcopy.
 
 </div>
 
@@ -131,7 +125,7 @@ Every page here is a Markdown file in a public GitHub repository. Changes go thr
 
 <div class="grid cards two-up" markdown>
 
--   <span class="hk-slug">sap / energy</span>
+-   <span class="hk-slug">sap · ongoing</span>
 
     **SAP DER MCM product assistance**
 
@@ -139,29 +133,29 @@ Every page here is a Markdown file in a public GitHub repository. Changes go thr
 
     [:octicons-arrow-right-24: Read the case study](work/sap-der-mcm.md)
 
--   <span class="hk-slug">avancer / identity</span>
+-   <span class="hk-slug">avancer · consultant · ongoing</span>
 
-    **IGA Application Onboarding Hub**
+    **Avancer documentation consulting**
 
-    A complete documentation suite for an identity governance product, from installation and admin guides to product briefs and ServiceNow Store copy.
+    A complete product documentation suite, a house style guide, and the migration of the documentation from Microsoft 365 to Confluence.
 
-    [:octicons-arrow-right-24: Read the case study](work/avancer-iga-onboarding-hub.md)
+    [:octicons-arrow-right-24: Read the case study](work/avancer.md)
 
--   <span class="hk-slug">microsoft / developer docs</span>
+-   <span class="hk-slug">uber · outlier · mercor</span>
+
+    **AI training and evaluation**
+
+    Building AI pipelines, writing and reviewing outputs, and evaluating them to train models on technical writing.
+
+    [:octicons-arrow-right-24: Read the case study](work/ai-training.md)
+
+-   <span class="hk-slug">microsoft · developer docs</span>
 
     **Microsoft Teams developer docs**
 
     Authentication and single sign-on content for the Teams developer platform, written to the Microsoft Style Guide and live on Microsoft Learn.
 
     [:octicons-arrow-right-24: Read the case study](work/microsoft-teams.md)
-
--   <span class="hk-slug">exl / docs as code</span>
-
-    **RPA docs-as-code migration**
-
-    Documentation for an RPA platform written from scratch and moved from static files to a Git-based MkDocs portal.
-
-    [:octicons-arrow-right-24: Read the case study](work/exl-rpa-docs.md)
 
 </div>
 

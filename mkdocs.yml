@@ -80,12 +80,12 @@ nav:
   - Work:
       - work/index.md
       - SAP DER MCM product assistance: work/sap-der-mcm.md
-      - IGA Application Onboarding Hub suite: work/avancer-iga-onboarding-hub.md
-      - Style guide, governance, and Confluence migration: work/avancer-docs-governance.md
-      - Microsoft Teams developer docs: work/microsoft-teams.md
+      - Avancer documentation consulting: work/avancer.md
+      - AI training and evaluation: work/ai-training.md
       - RPA docs-as-code migration: work/exl-rpa-docs.md
       - Insurance platform documentation: work/oneshield.md
       - Documentation overhaul across four companies: work/vision-group.md
+      - Microsoft Teams developer docs: work/microsoft-teams.md
       - Content writing and ghostwriting: work/content-writing.md
   - Samples:
       - samples/index.md

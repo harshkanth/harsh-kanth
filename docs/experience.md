@@ -1,10 +1,10 @@
 ---
-description: Harsh Kanth's professional experience as a technical writer, documentation lead, and consultant, from SAP and Microsoft to OneShield and EXL.
+description: Harsh Kanth's professional experience as a technical writer, documentation owner, consultant, and AI trainer, from SAP and Microsoft to OneShield and EXL.
 ---
 
 # Experience
 
-<p class="lead">Ten years across enterprise software, developer platforms, insurtech, fintech, and retail tech, in full-time leadership roles, consulting engagements, and freelance work.</p>
+<p class="lead">Ten years across enterprise software, developer platforms, insurtech, fintech, and retail tech, in full-time leadership roles, consulting engagements, AI training projects, and freelance work.</p>
 
 [:material-file-download-outline: Download résumé (PDF)](assets/Harsh_Kanth_Resume.pdf){ .md-button }
 
@@ -32,11 +32,43 @@ description: Harsh Kanth's professional experience as a technical writer, docume
 - Authored Avancer Style Guide v2.0 and ran compliance passes across several identity products
 - Migrated documentation from Microsoft 365 to Confluence Cloud, set up the space, and maintain it
 
-[:octicons-arrow-right-24: Onboarding Hub case study](work/avancer-iga-onboarding-hub.md) · [:octicons-arrow-right-24: Governance and migration case study](work/avancer-docs-governance.md)
+[:octicons-arrow-right-24: Case study](work/avancer.md)
+
+</div>
+
+<div class="role role--current" markdown>
+
+### Writer and reviewer · Mercor, Project Odin
+<span class="when">Present</span>
+
+- Write content and review outputs to train AI models
+
+[:octicons-arrow-right-24: AI training case study](work/ai-training.md)
 
 </div>
 
 ## Previously
+
+<div class="role" markdown>
+
+### Contributor · Outlier, Project Aether
+<span class="when">2026</span>
+
+- Contributed to AI training work on Project Aether
+
+</div>
+
+<div class="role" markdown>
+
+### AI training for technical writing · Uber
+<span class="when">May 2026 – Jul 2026</span>
+
+- Created an AI pipeline for technical writing tasks
+- Reviewed and evaluated its outputs, wrote feedback, and trained the model again in repeated rounds
+
+[:octicons-arrow-right-24: AI training case study](work/ai-training.md)
+
+</div>
 
 <div class="role" markdown>
 
