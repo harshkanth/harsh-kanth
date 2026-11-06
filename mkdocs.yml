@@ -1,80 +1,119 @@
-site_name: Doc Studio
+site_name: Harsh Kanth
 site_url: https://harshkanth.com
+site_author: Harsh Kanth
+site_description: >-
+  Harsh Kanth is a technical writer and documentation architect with 10+ years
+  of experience writing product, API, and enterprise documentation for SAP,
+  Microsoft, OneShield, and fast-moving product teams.
+repo_url: https://github.com/harshkanth/harsh-kanth
+repo_name: harshkanth/harsh-kanth
+edit_uri: ""
+copyright: >-
+  &copy; 2026 Harsh Kanth &middot; Written, structured, and built in Markdown with MkDocs
 
 theme:
   name: material
-  palette:
-    - scheme: Light
-      primary: custom
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: custom
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-
-  logo: bgm.png
-  favicon: beclogo.png
+  custom_dir: overrides
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
   language: en
+  font:
+    text: Manrope
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
-    - navigation.instant.preview
     - navigation.tracking
     - navigation.path
-    - toc.follow
     - navigation.top
+    - navigation.footer
+    - toc.follow
     - search.suggest
     - search.highlight
-    - search.share
+    - content.code.copy
+    - content.tooltips
 
 extra_css:
-  - extra.css
-extra_javascript:
-  - https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/harsh-kanth-53974164/
+      name: LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/harshkanth
+      name: GitHub
+    - icon: fontawesome/brands/whatsapp
+      link: https://wa.me/917827620848
+      name: WhatsApp
+    - icon: fontawesome/solid/envelope
+      link: mailto:harshhh10@gmail.com
+      name: Email
 
 plugins:
   - search
-  - tags
 
 nav:
-  - Home:
-      - The docs behind docs: index.md
-      - About me: aboutme.md
-      - Why BECDEG?: whybecdeg.md
-  - What's new?: Whatsnew.md
-  - Documentation:
-      - Overview: Documentation_overview.md
-      - User manuals: 
-          - Overview: user_manuals_overview.md
-      - Step by step guides: 
-          - Overview: step-by-step-guide-overview.md
-          - Download and install MS Teams application: download_and_install_msteams.md
-      - How-to guides: 
-          - Overview: How_to_overview.md
-          - How to schedule a meeting in MS Teams application: meetings_teams/schedule_meeting_in_teams.md
-      - APIs: 
-          - Overview: APIs.md
-      - Business user guides: 
-          - Overview: business-user-guides.md
-      - Case studies: 
-          - Overview: case-studies.md
-  - Experiences: experience.md
+  - Home: index.md
+  - Work:
+      - work/index.md
+      - SAP DER MCM product assistance: work/sap-der-mcm.md
+      - IGA Application Onboarding Hub suite: work/avancer-iga-onboarding-hub.md
+      - Style guide and docs governance: work/avancer-docs-governance.md
+      - Microsoft Teams developer docs: work/microsoft-teams.md
+      - RPA docs-as-code migration: work/exl-rpa-docs.md
+      - Insurance platform documentation: work/oneshield.md
+      - Documentation overhaul across four companies: work/vision-group.md
+  - Samples:
+      - samples/index.md
+      - Install Microsoft Teams: samples/install-microsoft-teams.md
+      - Schedule a meeting in Microsoft Teams: samples/schedule-teams-meeting.md
+  - Experience: experience.md
   - Services: services.md
+  - About: about.md
   - Contact: contact.md
-  - Tags: tags.md
 
 markdown_extensions:
-  - attr_list
-  - md_in_html
-  - pymdownx.blocks.caption
+  - abbr
   - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.keys
+  - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

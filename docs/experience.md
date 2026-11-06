@@ -1,170 +1,147 @@
-# Professional experience
-
-With over **10 years of diverse experience**, I have worked as a **technical writer**, **documentation strategist**, **UX writer**, **editor**, and **content consultant**.  
-This journey spans global MNCs, fast-paced startups, US-based agencies, and deeply technical freelance assignments.
-
+---
+description: Harsh Kanth's professional experience as a technical writer, documentation lead, and consultant, from SAP and Microsoft to OneShield and EXL.
 ---
 
-## 🧱 Full-Time roles
+# Experience
 
-### 🏢 EXL (Current Contract)
-**Role:** Senior Technical Writer  
-**Domain:** AI, analytics, automation  
+<p class="lead">Ten years across enterprise software, developer platforms, insurtech, fintech, and retail tech, in full-time leadership roles, consulting engagements, and freelance work.</p>
 
-**Scope:**
-- Developed API guides, internal wikis, automation documentation, and SOPs for AI/ML platforms
-- Supported engineering and delivery teams in creating user-centric technical content
+[:material-file-download-outline: Download résumé (PDF)](assets/Harsh_Kanth_Resume.pdf){ .md-button }
 
----
+## Now
 
-### 🏢 OneShield Software (India)
-**Role:** Lead Technical Writer  
-**Duration:** March 2023 – Jan 2025  
+<div class="role role--current" markdown>
 
-**Key Contributions:**
-- Led documentation for insurance core systems, AI metadata platforms, and SaaS solutions
-- Developed JSON/XML schema documentation and CI/CD pipeline guides (Jenkins, Bamboo, JFrog, Nexus)
-- Authored manuals, release notes, executive summaries, and training videos (Camtasia)
-- Peer-reviewed content, mentored junior technical writers, and streamlined Azure DevOps workflows
+### Founder · Becdeg
+<span class="when">Present</span>
 
----
+Becdeg is the company I founded to house documentation services and products. It includes [Docifice](https://docifice.com), a technical writing and content agency, and an AI documentation agent currently in development.
 
-### 🏢 Vision Group Retail Technologies Pvt. Ltd.
-**Role:** Senior Technical Writer, Document Owner, Business Analyst  
-**Duration:** Jan 2022 – Feb 2023  
+</div>
 
-**Key Contributions:**
-- Overhauled documentation systems across 4 subsidiaries (Retail Tech, AI/ML, AR/VR)
-- Delivered SDK guides, developer documentation, API references, and UX/UI content
-- Introduced documentation templates, style guides, and taxonomy structures
-- Migrated siloed content into CMS and Git repositories, improving collaboration and discoverability
+<div class="role role--current" markdown>
 
----
+### SAP consultant and technical writer · SAP Distributed Energy Resources
+<span class="when">Present</span>
 
-### 🏢 Microsoft (via Ushta Te)
-**Role:** Technical Writer, Tester, Proofreader  
-**Duration:** Aug 2021 – Jan 2022  
+- Write product assistance for Measurement Concept Management, published on the SAP Help Portal
+- Own What's New entries, release notes, and API process documentation for each delivery
+- Maintain the product's terminology with the product owner and apply it across the documentation set
 
-**Key Contributions:**
-- Authored Microsoft Teams platform documentation using the Microsoft Style Guide
-- Collaborated with developers, PMs, and SMEs to deliver developer-focused content
-- Managed SEO optimization, backend content testing, and quality assurance workflows
-- Sample work:  
-  [Microsoft Teams SSO Guide](https://docs.microsoft.com/en-us/microsoftteams/platform/bots/how-to/authentication/auth-aad-sso-bots)
+[:octicons-arrow-right-24: Case study](work/sap-der-mcm.md)
 
----
+</div>
 
-### 🏢 PCC Softech Pvt. Ltd.
-**Role:** Technical Content Writer, Editor, Proofreader  
-**Duration:** June 2019 – June 2021  
+<div class="role role--current" markdown>
 
-**Key Contributions:**
-- Created SEO-driven web content for T-Mobile USA, PCC Wireless, and education platforms
-- Produced product descriptions, blogs, whitepapers, and marketing collateral
-- Ensured editorial consistency based on the Chicago Manual of Style
-- Worked closely with development and web teams for content alignment
+### Documentation consultant · Avancer
+<span class="when">Present</span>
 
----
+- Wrote the documentation suite for the IGA Application Onboarding Hub, from installation and admin guides to the ServiceNow Store listing
+- Authored Avancer Style Guide v2.0 and ran compliance passes across several identity products
+- Maintain Identity Bridge documentation in Confluence Cloud
 
-## 🛠️ Freelance and remote work
+[:octicons-arrow-right-24: Onboarding Hub case study](work/avancer-iga-onboarding-hub.md) · [:octicons-arrow-right-24: Governance case study](work/avancer-docs-governance.md)
 
-### Touch'N'Go (Malaysia)  
-**Role:** Technical Writer and Documentation Consultant  
-**Domain:** Fintech  
+</div>
 
-**Scope:**
-- Created UX microcopy, onboarding flows, standard operating procedures (SOPs), and customer support documentation for a mobile wallet application.
-- Collaborated closely with UI/UX designers, project managers (PMs), and product teams to ensure the consistency and clarity of documentation.
-- Developed user-friendly content aimed at improving the overall customer experience within the mobile wallet application.
-- Streamlined internal communication by writing concise guides for internal stakeholders on troubleshooting, usage, and updates.
+## Previously
 
----
+<div class="role" markdown>
 
-### Fusioni Technologies
-**Role:** Technical Writer and Editor  
-**Duration:** Sep 2018 – Mar 2019  
+### Senior technical writer (contract) · EXL Service
+<span class="when">2025 · Remote</span>
 
-**Scope:**
-- Created technical documentation, product overviews, and marketing content for SaaS and retail tech platforms
+- Proposed and built an online, docs-as-code portal for the iBOT RPA platform using Markdown, GitHub, and MkDocs
+- Wrote user manuals, troubleshooting guides, and workflow and integration documentation
+- Reviewed team content and ran knowledge transfer sessions
 
----
+[:octicons-arrow-right-24: Case study](work/exl-rpa-docs.md)
 
-### BMW USA
-**Role:** Content Writer (Ghostwriting)  
-**Duration:** May 2018 – Oct 2018  
+</div>
 
-**Scope:**
-- Produced research-driven blogs, UX documentation, and case studies related to automotive innovation and connected vehicles
+<div class="role" markdown>
 
----
+### Lead technical writer · OneShield Software
+<span class="when">Mar 2023 – Jan 2025 · Remote</span>
 
-### Amazon
-**Role:** Product Writer (Ghostwriting)  
-**Duration:** Sep 2018 – Mar 2019  
+- Led the technical writing team for insurance core systems, metadata applications, and AI software
+- Documented JSON metadata, XML schemas, and CI/CD pipelines (Jenkins, Bamboo, JFrog, Nexus)
+- Wrote release notes, advisories, and executive summaries, and built video training in Camtasia
 
-**Scope:**
-- Developed product descriptions, SEO content, and imagery-driven copy for Amazon marketplace listings
+[:octicons-arrow-right-24: Case study](work/oneshield.md)
 
----
+</div>
 
-### Western Union USA
-**Role:** Finance Content Writer  
-**Duration:** Nov 2017 – Sep 2018  
+<div class="role" markdown>
 
-**Scope:**
-- Wrote SEO-optimized web content for financial services, remittance solutions, and digital platforms
+### Lead technical writer and document owner · Vision Group Retail Technologies
+<span class="when">Jan 2022 – Feb 2023</span>
 
----
+- Overhauled documentation across four subsidiaries in retail tech, AI/ML, and AR/VR, reporting to the Chief Product Officer
+- Introduced templates, a style guide, taxonomy, and content reuse; migrated content into a CMS and Git
+- Wrote SDK guides, API references, feature guides, and release notes, and led writers and business analysts
 
-### ShoutVox (New York, USA)
-**Role:** Writer, Editor, Technical Blogger  
-**Duration:** Apr 2016 – Jun 2019  
+[:octicons-arrow-right-24: Case study](work/vision-group.md)
 
-**Scope:**
-- Created blogs, whitepapers, case studies, and manuals across B2B and B2C sectors
-- Delivered ghostwritten content for startups and agencies across finance, tech, and lifestyle domains
+</div>
 
----
+<div class="role" markdown>
 
-### Horizon Hobby LLC
-**Role:** Remote Technical Writer  
-**Duration:** Sep 2015 – Nov 2016  
+### Technical writer · Microsoft (via Ushta Te)
+<span class="when">Aug 2021 – Jan 2022</span>
 
-**Scope:**
-- Authored manuals, blog posts, and product documentation for RC vehicles (ARRMA, Axial, Horizon)
+- Wrote the Add Authentication section of the Microsoft Teams developer documentation
+- Tested procedures, proofread content, and handled SEO and QA to the Microsoft Writing Style Guide
 
----
+[:octicons-arrow-right-24: Case study](work/microsoft-teams.md)
 
-### The Road to Domestication
-**Role:** Lifestyle Content Writer  
-**Duration:** Dec 2016 – Oct 2017  
+</div>
 
-**Scope:**
-- Produced household lifestyle blogs with keyword research and SEO strategy
+<div class="role" markdown>
 
----
+### Technical content writer and editor · PCC Softech
+<span class="when">Jun 2019 – Jun 2021</span>
 
+- Wrote web content, product descriptions, blogs, and whitepapers for T-Mobile USA, PCC Wireless, and education platforms
+- Edited to the Chicago Manual of Style
 
-## 🌐 Domains I have worked in
+</div>
 
-- SaaS, cloud platforms, and platform-as-a-service solutions  
-- Insurtech, fintech, and e-commerce ecosystems  
-- AI, ML, image recognition, and autonomous retail  
-- Automotive UX and electric mobility  
-- Retail tech, AR/VR innovation, and education  
-- Lifestyle and consumer technology brands  
+## Freelance and remote work
 
----
+| Client | Work | Dates |
+|--------|------|-------|
+| Touch 'n Go (Malaysia) | UX microcopy, onboarding flows, SOPs, and support docs for a mobile wallet | — |
+| Fusioni Technologies | Technical documentation and product overviews for SaaS and retail tech | Sep 2018 – Mar 2019 |
+| Amazon (ghostwriting) | Product descriptions and SEO content for marketplace listings | Sep 2018 – Mar 2019 |
+| BMW USA (ghostwriting) | Research-driven articles and case studies on connected vehicles | May 2018 – Oct 2018 |
+| Western Union USA | Web content for financial services and remittance products | Nov 2017 – Sep 2018 |
+| ShoutVox (New York) | Blogs, whitepapers, case studies, and manuals for B2B and B2C clients | Apr 2016 – Jun 2019 |
+| Horizon Hobby | Manuals and product documentation for RC vehicles | Sep 2015 – Nov 2016 |
 
-## 🤝 Engagement styles
+## Teaching
 
-- 🔧 Full-time leadership roles (permanent and strategic documentation ownership)  
-- 📄 Contract and project-based consulting (short- and mid-term engagements)  
-- 🧑‍💻 Remote and freelance writing for global teams  
-- 🗂️ Ghostwriting for enterprises, agencies, and individual founders  
-- 🧠 Mentoring writers, analysts, and junior product owners
+- Created a complete video training module, *Fundamentals of Technical Writing*, for Board Infinity on Coursera
 
----
+## Tools and standards
 
-👉 Visit the [Services](services.md) page for more details.  
-📬 Ready to collaborate? Check the [Contact](contact.md) page.
+=== "Authoring and publishing"
+
+    Markdown, MkDocs, Docusaurus, Jekyll, Sphinx, AsciiDoc, reStructuredText, MadCap Flare, Adobe RoboHelp, Adobe FrameMaker, Oxygen XML, DITA, Confluence, SharePoint, WordPress, Microsoft Word
+
+=== "Engineering workflow"
+
+    Git, GitHub, GitLab, Bitbucket, VS Code, Visual Studio, Azure DevOps, Jira, Postman, Swagger/OpenAPI, Jenkins, Bamboo, JFrog, Nexus
+
+=== "Diagrams and media"
+
+    Figma, draw.io, Lucidchart, Camtasia, LMS platforms
+
+=== "Style guides"
+
+    Microsoft Writing Style Guide, Apple Style Guide, Google Developer Documentation Style Guide, Chicago Manual of Style, SAP conventions, and custom house style guides
+
+=== "Technical"
+
+    HTML, CSS, Python, JavaScript and Node.js, C#, C++, SQL, JSON and XML schemas

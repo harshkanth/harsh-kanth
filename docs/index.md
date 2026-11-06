@@ -1,95 +1,193 @@
-# Welcome to my documentation portfolio
-
-This site is a curated collection of my work as a Senior and Lead technical writer, content strategist and designer, UX writer, and documentation architect and owner, designed to showcase the depth, precision, and versatility of the content I create.
-
-I built this site single-handedly, from structure to design, as a direct demonstration of my skills and craftsmanship. After all, what better portfolio could a technical writer present than a fully self-developed documentation platform?
-
-With over **10 years of experience**, I have led and delivered end-to-end documentation for Fortune 500 companies, product startups, agencies, and cross-functional tech teams. From building documentation systems for **Microsoft Teams** to creating platform-wide architecture content for **OneShield**, this portfolio reflects how I simplify complexity and structure knowledge at scale.
-
-**Interested in my work? Check out the following:**  
-
-- [View Documentation Samples](Documentation_overview.md) 📚 
-- [Download My Resume](Harsh_Kanth_10_Years_Tech_Writer.pdf) 📄 
-- [Visit My GitHub Profile](https://github.com/harshkanth) :octicons-mark-github-16:
-
-!!! tip
-    - Check out the [What's New](Whatsnew.md) section to see the latest updates on the website!
-    - Check out the Blogs section to read some thoughtful blogs.
-
+---
+title: Technical writer and documentation architect
+description: >-
+  Harsh Kanth writes product, API, and enterprise documentation for SAP,
+  Microsoft, and product teams. 10+ years, from first outline to published portal.
+hide:
+  - navigation
+  - toc
 ---
 
-## Why this portfolio exists
+<div class="hk-hero" markdown>
 
-In today’s digital-first ecosystem, documentation is no longer an afterthought. It is a product, a brand experience, and a strategic asset.
+<div markdown>
 
-**I created this site to:**
+<span class="hk-eyebrow">Open to documentation projects</span>
 
-- Showcase my ability to own the **entire documentation lifecycle**, from initial planning and architecture to final publishing and optimization  
-- Demonstrate my comfort with **documentation platforms**, **Git-based workflows**, **theming**, **SEO**, and **developer tools**  
-- Provide a live example of how I approach documentation design, **user-first**, **scalable**, and **technically sound**  
-- Show how I think about documentation, not just what I write  
-- Share examples of my **real-world work**, **structure**, and **problem-solving**  
-- Offer **clients, recruiters, and collaborators** a firsthand look at the quality of content I deliver  
-- Highlight my experience using tools like **MkDocs**, **Markdown**, **Git**, and **CI/CD environments**, all of which I use daily
+<h1 class="hk-title">I turn complex products into <em>documentation people actually use.</em></h1>
 
-I have built documentation for AI/ML systems, SDKs, API platforms, image recognition tools, insurance products, and fintech apps, and I understand how content aligns with product design, engineering workflows, and user psychology.
+<p class="hk-sub">I'm Harsh Kanth, a technical writer and documentation architect with 10+ years of experience. I write product assistance for SAP, wrote developer docs for Microsoft Teams, and own documentation for enterprise platforms from the first outline to the published portal.</p>
 
----
+<div class="hk-actions" markdown>
+[See my work](work/index.md){ .md-button .md-button--primary }
+[Download résumé](assets/Harsh_Kanth_Resume.pdf){ .md-button }
+[Get in touch](contact.md){ .md-button }
+</div>
 
-## What you’ll find here
+</div>
 
-This site includes select samples across different documentation categories:
+<div class="hk-tracker">
+  <div class="hk-tracker__head"><span>Currently writing</span><span>Live</span></div>
+  <div class="hk-tracker__item">
+    <span class="hk-dot hk-dot--green"></span>
+    <span class="hk-tracker__title">SAP DER · Measurement Concept Management</span>
+    <span class="hk-tracker__meta">Product assistance on the SAP Help Portal: energy communities, formulas, SAP S/4HANA Utilities integration</span>
+  </div>
+  <div class="hk-tracker__item">
+    <span class="hk-dot"></span>
+    <span class="hk-tracker__title">IGA Application Onboarding Hub</span>
+    <span class="hk-tracker__meta">Admin, user, and installation guides, solution architecture, and AI provider setup</span>
+  </div>
+  <div class="hk-tracker__item">
+    <span class="hk-dot hk-dot--amber"></span>
+    <span class="hk-tracker__title">Becdeg and Docifice</span>
+    <span class="hk-tracker__meta">Founder. A documentation agency today, an AI documentation agent next</span>
+  </div>
+</div>
 
-- 📄 **Sample guides and tutorials**: End-user docs, onboarding flows, and system walkthroughs  
-- 🔍 **Developer docs and API references**: Technical documentation focused on usability and clarity  
-- 🧠 **Content strategy artifacts**: Taxonomy plans, documentation frameworks, editorial workflows  
-- ✍️ **UX and microcopy writing**: Interface language for onboarding, modals, tooltips, and alerts  
-- 🛠️ **Process and SOP documentation**: Internal wikis, operational runbooks, and training content  
-- 📚 **Proofreading, QA workflows, and style guide enforcement**: Peer-review checklists, editorial feedback systems, Microsoft Style Guide alignment, and template-driven authoring
+</div>
 
-Each item is curated to reflect how I approach **structure, clarity, and intent**, putting users at the center of every sentence.
+<div class="hk-stats">
+  <div class="hk-stat"><strong>10+</strong><span>years writing documentation</span></div>
+  <div class="hk-stat"><strong>15+</strong><span>companies and clients</span></div>
+  <div class="hk-stat"><strong>10</strong><span>industries, from energy to insurtech</span></div>
+  <div class="hk-stat"><strong>4</strong><span>house style guides worked to: Microsoft, Apple, Google, Chicago</span></div>
+</div>
 
----
+<div class="hk-clients">
+  <div class="hk-clients__label">Documentation and content for</div>
+  <div class="hk-clients__list">
+    <span>SAP</span><span>Microsoft</span><span>Amazon</span><span>BMW</span><span>OneShield</span><span>EXL</span><span>Holepunch</span><span>Western Union</span>
+  </div>
+</div>
 
-## Industries I have worked in
+<p class="hk-section-label">Selected work</p>
 
-Over the years, I have created documentation across:
+## Recent projects
 
-- SaaS and platform services  
-- AI, ML, and image recognition  
-- Fintech and insurtech  
-- Robotic process automation (RPA)  
-- Retail tech and autonomous stores  
-- Automotive UX  
-- Cloud tools, SDKs, and API products  
-- E-commerce, edtech, and consumer platforms  
-- Healthcare industry  
-- Aviation
+<div class="grid cards two-up" markdown>
 
-This site includes samples from those experiences, adapted or recreated for confidentiality where needed.
+-   :material-transmission-tower:{ .lg .middle } **SAP DER MCM product assistance**
 
----
+    ---
 
-## Who I work with
+    End-to-end product assistance for Measurement Concept Management in SAP Distributed Energy Resources, published on the SAP Help Portal.
 
-I have partnered with:
+    <span class="chip">Enterprise software</span><span class="chip">Energy</span><span class="chip">What's New</span>
 
-- **Global tech companies** like Microsoft, Amazon, and BMW  
-- **Startups and product teams** building their first documentation layers  
-- **Agencies and consulting firms** seeking technical or branded content support  
-- **Cross-functional teams** including PMs, developers, designers, and analysts
+    [:octicons-arrow-right-24: Read the case study](work/sap-der-mcm.md)
 
-I bring structured systems, empathetic writing, and deep documentation insight into every project, from MVPs to enterprise-scale platforms.
+-   :material-shield-account:{ .lg .middle } **IGA Application Onboarding Hub**
 
----
+    ---
 
-## Let’s work together
+    A complete documentation suite for an identity governance product, from installation and admin guides to product briefs and ServiceNow Store copy.
 
-Whether you need someone to **build a documentation system from scratch**, **lead a team of writers**, or simply **write with clarity and consistency**, I can help.
+    <span class="chip">Identity and access</span><span class="chip">Doc suite</span>
 
-📫 Reach out via the [Contact](contact.md) page, [chat with me on WhatsApp](https://wa.me/917827620848), or connect with me on [LinkedIn](https://www.linkedin.com/in/harsh-kanth-53974164/).
+    [:octicons-arrow-right-24: Read the case study](work/avancer-iga-onboarding-hub.md)
 
----
+-   :material-microsoft-teams:{ .lg .middle } **Microsoft Teams developer docs**
 
-Thanks for stopping by.  
-Explore the sections, click around, and see what clear, scalable documentation looks like in action.
+    ---
+
+    Authentication and single sign-on content for the Microsoft Teams platform, written to the Microsoft Style Guide and live on Microsoft Learn.
+
+    <span class="chip">Developer docs</span><span class="chip">Public sample</span>
+
+    [:octicons-arrow-right-24: Read the case study](work/microsoft-teams.md)
+
+-   :material-source-branch:{ .lg .middle } **RPA docs-as-code migration**
+
+    ---
+
+    Built the documentation for an RPA platform from scratch and moved it from static files to an online, Git-based MkDocs portal.
+
+    <span class="chip">Docs as code</span><span class="chip">Automation</span>
+
+    [:octicons-arrow-right-24: Read the case study](work/exl-rpa-docs.md)
+
+</div>
+
+[:octicons-arrow-right-24: All projects](work/index.md){ .md-button }
+
+<p class="hk-section-label">What I write</p>
+
+## Documentation across the whole product
+
+<div class="grid cards" markdown>
+
+-   :material-book-open-page-variant:{ .lg .middle } **Product and user guides**
+
+    ---
+
+    Admin, user, and installation guides, product assistance, and step-by-step procedures that let people self-serve.
+
+-   :material-api:{ .lg .middle } **API and developer docs**
+
+    ---
+
+    REST references, SDK and integration guides, authentication flows, and Swagger/OpenAPI content.
+
+-   :material-sitemap:{ .lg .middle } **Information architecture**
+
+    ---
+
+    Portal structure, taxonomy, templates, and content reuse so documentation scales with the product.
+
+-   :material-format-list-checks:{ .lg .middle } **Style guides and governance**
+
+    ---
+
+    House style guides, review workflows, and compliance passes that keep a large doc set consistent.
+
+-   :material-bullhorn-outline:{ .lg .middle } **Release communication**
+
+    ---
+
+    Release notes, What's New entries, advisories, and executive summaries written for the reader who acts on them.
+
+-   :material-gesture-tap-button:{ .lg .middle } **UX writing**
+
+    ---
+
+    Onboarding flows, error messages, tooltips, and empty states written with the product logic in mind.
+
+</div>
+
+<p class="hk-section-label">How I work</p>
+
+## Four principles behind every page
+
+<div class="grid cards principles" markdown>
+
+-   **Clarity**
+
+    Plain, precise language that matches what the reader is trying to do, not what the system calls it.
+
+-   **Structure**
+
+    Task-first organization, consistent templates, and content built to be reused instead of rewritten.
+
+-   **Accuracy**
+
+    Every procedure checked against the product, with terminology agreed with product owners before it ships.
+
+-   **Maintainability**
+
+    Docs as code, version control, and review workflows that let documentation keep pace with releases.
+
+</div>
+
+<div class="hk-cta" markdown>
+
+## Need documentation that keeps up with your product?
+
+I take on documentation projects, audits, and long-term ownership. For larger engagements, I work through [Docifice](https://docifice.com), my documentation agency.
+
+<div class="hk-actions" markdown>
+[Start a conversation](contact.md){ .md-button .md-button--primary }
+[What I offer](services.md){ .md-button }
+</div>
+
+</div>
