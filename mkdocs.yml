@@ -5,8 +5,6 @@ site_description: >-
   Harsh Kanth is a technical writer and documentation owner with 10+ years of
   experience planning, writing, and managing product, API, and developer
   documentation. Built as docs as code.
-repo_url: https://github.com/harshkanth/harsh-kanth
-repo_name: harshkanth/harsh-kanth
 edit_uri: ""
 copyright: >-
   &copy; 2026 Harsh Kanth &middot; Written in Markdown, versioned in Git, built with MkDocs
@@ -21,18 +19,20 @@ theme:
     text: IBM Plex Sans
     code: IBM Plex Mono
   palette:
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
     edit: material/file-edit-outline
